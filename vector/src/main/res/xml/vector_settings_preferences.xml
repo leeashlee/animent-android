@@ -78,7 +78,7 @@
 
     <im.vector.app.core.preference.VectorPreferenceCategory android:title="@string/settings_category_timeline">
 
-        <im.vector.app.core.preference.VectorSwitchPreference
+        <!--<im.vector.app.core.preference.VectorSwitchPreference
             android:defaultValue="@bool/settings_interface_bubble_default"
             android:key="SETTINGS_INTERFACE_BUBBLE_KEY"
             android:title="@string/message_bubbles"
@@ -89,7 +89,7 @@
             app:isPreferenceVisible="@bool/settings_timeline_show_live_sender_info_visible"
             android:key="SETTINGS_TIMELINE_SHOW_LIVE_SENDER_INFO"
             android:summary="@string/settings_show_latest_profile_description"
-            android:title="@string/settings_show_latest_profile" />
+            android:title="@string/settings_show_latest_profile" /> -->
 
         <im.vector.app.core.preference.VectorSwitchPreference
             android:defaultValue="true"
@@ -119,13 +119,13 @@
             android:title="@string/settings_show_redacted" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="SETTINGS_SHOW_JOIN_LEAVE_MESSAGES_KEY"
             android:summary="@string/settings_show_join_leave_messages_summary"
             android:title="@string/settings_show_join_leave_messages" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="SETTINGS_SHOW_AVATAR_DISPLAY_NAME_CHANGES_MESSAGES_KEY"
             android:summary="@string/settings_show_avatar_display_name_changes_messages_summary"
             android:title="@string/settings_show_avatar_display_name_changes_messages" />
