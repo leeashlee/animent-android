@@ -124,7 +124,7 @@ class ViewEditHistoryEpoxyController @Inject constructor(
                                 diff_match_patch.Operation.INSERT -> {
                                     span {
                                         text = it.text
-                                        textColor = colorProvider.getColor(R.color.palette_element_green)
+                                        textColor = colorProvider.getColor(R.color.palette_element_mustard)
                                     }
                                 }
                                 else -> {

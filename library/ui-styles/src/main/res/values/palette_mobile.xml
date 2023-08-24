@@ -4,8 +4,8 @@
     <!-- Alias to the palette colors
       Source: https://www.figma.com/file/X4XTH9iS2KGJ2wFKDqkyed/Compound?node-id=1521%3A23026 -->
 
-    <color name="element_accent_light">@color/palette_element_green</color>
-    <color name="element_accent_dark">@color/palette_element_green</color>
+    <color name="element_accent_light">@color/palette_element_mustard</color>
+    <color name="element_accent_dark">@color/palette_element_mustard</color>
 
     <color name="element_alert_light">@color/palette_vermilion</color>
     <color name="element_alert_dark">@color/palette_vermilion</color>
@@ -45,9 +45,9 @@
     <color name="element_name_03">@color/palette_verde</color>
     <color name="element_name_04">@color/palette_polly</color>
     <color name="element_name_05">@color/palette_melon</color>
-    <color name="element_name_06">@color/palette_aqua</color>
+    <color name="element_name_06">@color/palette_celestial</color>
     <color name="element_name_07">@color/palette_prune</color>
-    <color name="element_name_08">@color/palette_kiwi</color>
+    <color name="element_name_08">@color/palette_aqua</color>
 
     <!-- Also create alias for rooms -->
     <color name="element_room_01">@color/palette_verde</color>
