@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     android:minHeight="200dp"
     android:orientation="vertical">
 
@@ -16,6 +17,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:text="@string/bottom_sheet_setup_secure_backup_subtitle"
+        android:textAlignment="center"
         android:textColor="?vctr_content_primary" />
 
     <View

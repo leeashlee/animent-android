@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     android:padding="16dp">
 
     <TextView
@@ -12,9 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textAlignment="center"
         android:textColor="?vctr_content_primary"
         app:layout_constraintBottom_toTopOf="@id/bootstrapRecoveryKeyEnterTil"
         app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp"
         tools:text="@string/bootstrap_enter_recovery" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -23,7 +26,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/use_file"
+            android:textAlignment="center"
             app:icon="@drawable/ic_file"
             tools:ignore="MissingPrefix"
             tools:visibility="visible" />
@@ -54,6 +57,7 @@
             style="@style/Widget.Vector.TextView.Body"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
             android:visibility="gone"
             tools:text="@string/keys_backup_restore_with_passphrase_helper_with_link"
             tools:visibility="visible" />

@@ -49,8 +49,8 @@
             app:layout_constraintTop_toBottomOf="@id/syncStateView">
 
             <com.google.android.material.appbar.CollapsingToolbarLayout
-                style="?attr/collapsingToolbarLayoutMediumStyle"
                 android:id="@+id/collapsing_toolbar"
+                style="?attr/collapsingToolbarLayoutMediumStyle"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/collapsingToolbarLayoutMediumSize"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed">
@@ -58,7 +58,7 @@
                 <com.google.android.material.appbar.MaterialToolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
-                    android:layout_height="?attr/actionBarSize"
+                    android:layout_height="59dp"
                     android:elevation="0dp"
                     app:layout_collapseMode="pin"
                     tools:title="@string/all_chats">
@@ -94,6 +94,7 @@
             android:id="@+id/roomListContainer"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="10dp"
             app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

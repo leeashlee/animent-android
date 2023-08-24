@@ -17,7 +17,7 @@
 
             <ImageView
                 android:id="@+id/loginServerIcon"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:importantForAccessibility="no"
                 app:tint="?vctr_content_primary"
@@ -27,19 +27,21 @@
             <TextView
                 android:id="@+id/loginTitle"
                 style="@style/Widget.Vector.TextView.Title"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/layout_vertical_margin"
+                android:textAlignment="center"
                 android:textColor="?vctr_content_primary"
                 tools:text="@string/login_signin_to" />
 
             <TextView
                 android:id="@+id/loginNotice"
                 style="@style/Widget.Vector.TextView.Body"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/layout_vertical_margin"
                 android:gravity="start"
+                android:textAlignment="center"
                 android:textColor="?vctr_content_secondary"
                 tools:text="@string/login_server_matrix_org_text" />
 
@@ -86,10 +88,11 @@
             <TextView
                 android:id="@+id/loginPasswordNotice"
                 style="@style/Widget.Vector.TextView.Caption"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="start"
                 android:text="@string/login_signin_matrix_id_password_notice"
+                android:textAlignment="center"
                 android:textColor="?vctr_content_secondary"
                 android:visibility="gone"
                 tools:visibility="visible" />

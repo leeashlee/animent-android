@@ -10,6 +10,7 @@
         android:id="@+id/roomList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
         android:background="?android:colorBackground"
         android:overScrollMode="always"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -43,10 +44,11 @@
                 <TextView
                     android:id="@+id/spaceLeavePromptTitle"
                     style="@style/TextAppearance.Vector.Body.Medium"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="24dp"
-                    android:text="@string/space_leave_prompt_msg_with_name" />
+                    android:text="@string/space_leave_prompt_msg_with_name"
+                    android:textAlignment="center" />
 
                 <TextView
                     android:id="@+id/spaceLeavePromptDescription"
@@ -54,15 +56,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/space_leave_prompt_msg_only_you"
+                    android:textAlignment="center"
                     android:textColor="?vctr_content_secondary" />
 
                 <TextView
                     android:id="@+id/spaceLeaveRadioButtonsTitle"
                     style="@style/TextAppearance.Vector.Subtitle.Medium"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="@string/space_leave_radio_buttons_title"
+                    android:textAlignment="center"
                     android:textAllCaps="true"
                     android:textColor="?vctr_content_primary" />
 

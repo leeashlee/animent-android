@@ -9,6 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         style="@style/LoginFormScrollView"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
         tools:ignore="MissingConstraints">
 
         <ImageView
@@ -27,6 +28,7 @@
             android:paddingStart="36dp"
             android:paddingEnd="36dp"
             android:text="@string/login_terms_title"
+            android:textAlignment="center"
             android:textColor="?vctr_content_primary"
             app:layout_constraintTop_toBottomOf="@id/loginLogo" />
 
@@ -39,6 +41,7 @@
             android:paddingStart="36dp"
             android:paddingEnd="36dp"
             android:text="@string/auth_accept_policies"
+            android:textAlignment="center"
             android:textColor="?vctr_content_secondary"
             app:layout_constraintTop_toBottomOf="@id/loginTermsTitle" />
 

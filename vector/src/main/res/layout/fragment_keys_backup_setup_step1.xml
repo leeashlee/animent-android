@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     android:background="?android:colorBackground"
     tools:context=".features.crypto.keysbackup.setup.KeysBackupSetupStep1Fragment">
 
@@ -16,6 +17,7 @@
         android:src="@drawable/backup_keys"
         app:layout_constraintBottom_toTopOf="@id/keys_backup_setup_step1_title"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.1"

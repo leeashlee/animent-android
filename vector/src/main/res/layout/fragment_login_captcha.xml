@@ -9,6 +9,7 @@
     <LinearLayout
         style="@style/LoginFormScrollView"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
         android:orientation="vertical"
         android:paddingStart="16dp"
         android:paddingTop="8dp"
