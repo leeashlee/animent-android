@@ -10,11 +10,11 @@
 
     <dimen name="profile_avatar_size">50dp</dimen>
     <dimen name="typing_avatar_size">20dp</dimen>
-    <dimen name="item_event_message_state_size">16dp</dimen>
+    <dimen name="item_event_message_state_size">14dp</dimen>
 
     <dimen name="item_event_message_media_button_size">32dp</dimen>
 
-    <dimen name="quote_gap">8dp</dimen>
+    <dimen name="quote_gap">4dp</dimen>
 
     <item name="dialog_width_ratio" format="float" type="dimen">0.75</item>
 
@@ -52,7 +52,7 @@
     <dimen name="rich_text_composer_menu_item_size">44dp</dimen>
 
     <dimen name="chat_bubble_margin_start">28dp</dimen>
-    <dimen name="chat_bubble_margin_end">6dp</dimen>
+    <dimen name="chat_bubble_margin_end">40dp</dimen>
     <dimen name="chat_bubble_fixed_size">350sp</dimen>
     <dimen name="chat_bubble_corner_radius">8dp</dimen>
 

@@ -76,7 +76,7 @@ class FtueAuthUseCaseFragment :
                 useCase = FtueUseCase.TEAMS,
                 label = R.string.ftue_auth_use_case_option_two,
                 icon = R.drawable.ic_use_case_teams,
-                tint = R.color.palette_element_green
+                tint = R.color.palette_element_mustard
         )
         views.useCaseOptionThree.renderUseCase(
                 useCase = FtueUseCase.COMMUNITIES,

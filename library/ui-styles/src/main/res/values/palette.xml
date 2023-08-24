@@ -10,19 +10,19 @@
 
     <!-- For all themes -->
     <color name="palette_azure">#368BD6</color>
-    <color name="palette_kiwi">#2DC2C5</color>
+    <color name="palette_aqua">#2DC2C5</color>
     <color name="palette_grape">#D57FD1</color>
-    <color name="palette_verde">#5C56F5</color>
+    <color name="palette_verde">#8056F5</color>
     <color name="palette_polly">#E64F7A</color>
     <color name="palette_melon">#FF812D</color>
 
-    <color name="palette_element_green">#EDCF7F</color>
-    <color name="palette_element_orange">#D9B072</color>
+    <color name="palette_element_mustard">#EDCF7F</color>
+    <color name="palette_element_gold">#D9B072</color>
     <color name="palette_white">#FFFFFF</color>
     <color name="palette_vermilion">#FF5B55</color>
     <!-- (unused) -->
     <color name="palette_ems">#B4A8FF</color>
-    <color name="palette_aqua">#90BAD5</color>
+    <color name="palette_celestial">#90BAD5</color>
     <color name="palette_prune">#B88FBF</color>
     <color name="palette_links">#FBE490</color>
 

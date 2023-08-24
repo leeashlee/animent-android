@@ -36,9 +36,9 @@ fun KonfettiView.play() {
             R.color.palette_verde,
             R.color.palette_polly,
             R.color.palette_melon,
-            R.color.palette_aqua,
+            R.color.palette_celestial,
             R.color.palette_prune,
-            R.color.palette_kiwi
+            R.color.palette_aqua
     )
     val emitterConfig = Emitter(2000).perSecond(100)
     val party = Party(
