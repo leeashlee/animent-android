@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="10dp"
     android:background="?android:colorBackground"
     android:paddingHorizontal="16dp">
 
@@ -122,8 +123,8 @@
             style="@style/TextAppearance.Vector.Body"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:includeFontPadding="false"
             android:layout_marginStart="8dp"
+            android:includeFontPadding="false"
             android:text="@string/qr_code_login_confirm_security_code_description"
             app:layout_constraintStart_toEndOf="@id/qrCodeLoginConfirmSecurityCodeImageView"
             app:layout_constraintTop_toTopOf="@id/qrCodeLoginConfirmSecurityCodeImageView" />

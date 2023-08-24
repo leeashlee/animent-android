@@ -18,6 +18,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:text="@string/bootstrap_cross_signing_success"
+        android:textAlignment="center"
         android:textColor="?vctr_content_primary"
         app:layout_constraintTop_toTopOf="parent" />
 

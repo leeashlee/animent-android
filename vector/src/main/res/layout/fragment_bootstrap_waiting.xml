@@ -14,8 +14,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="@string/bootstrap_loading_text"
+        android:textAlignment="center"
         android:textColor="?vctr_content_primary"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
 
     <ProgressBar
         android:id="@+id/bootstrapWaitingProgress"

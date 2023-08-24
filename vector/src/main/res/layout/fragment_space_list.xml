@@ -9,6 +9,8 @@
         android:id="@+id/groupListView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         android:minHeight="195dp"
         android:overScrollMode="always"
         tools:listitem="@layout/item_space" />

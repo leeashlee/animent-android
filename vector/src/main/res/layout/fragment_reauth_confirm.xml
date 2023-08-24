@@ -7,22 +7,23 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
 
         <TextView
             android:id="@+id/reAuthConfirmText"
             style="@style/Widget.Vector.TextView.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:layout_marginTop="20dp"
-            android:layout_marginEnd="16dp"
             android:text="@string/re_authentication_default_confirm_text"
+            android:textAlignment="center"
             android:textColor="?vctr_content_primary"
             app:layout_constraintBottom_toTopOf="@id/reAuthConfirmButton"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0"
-            app:layout_constraintVertical_chainStyle="packed" />
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:layout_editor_absoluteX="16dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordFieldTil"

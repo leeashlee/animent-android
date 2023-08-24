@@ -67,6 +67,7 @@
             android:id="@+id/phoneBookRecyclerView"
             android:layout_width="0dp"
             android:layout_height="0dp"
+            android:layout_margin="10dp"
             android:fastScrollEnabled="true"
             android:overScrollMode="always"
             android:scrollbars="vertical"

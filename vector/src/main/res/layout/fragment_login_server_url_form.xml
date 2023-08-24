@@ -9,7 +9,9 @@
 
     <androidx.core.widget.NestedScrollView style="@style/LoginFormScrollView">
 
-        <LinearLayout style="@style/LoginFormContainer">
+        <LinearLayout
+            style="@style/LoginFormContainer"
+            android:layout_margin="10dp">
 
             <ImageView
                 style="@style/LoginLogo"
@@ -18,7 +20,7 @@
             <!-- Displayed only for EMS -->
             <ImageView
                 android:id="@+id/loginServerUrlFormIcon"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:importantForAccessibility="no"
                 android:src="@drawable/ic_logo_element_matrix_services"
@@ -31,26 +33,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="27dp"
+                android:textAlignment="center"
                 android:textColor="?vctr_content_primary"
                 tools:text="@string/login_connect_to_modular" />
 
             <TextView
                 android:id="@+id/loginServerUrlFormText"
                 style="@style/Widget.Vector.TextView.Body"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/layout_vertical_margin"
                 android:gravity="start"
+                android:textAlignment="center"
                 android:textColor="?vctr_content_secondary"
                 tools:text="@string/login_server_url_form_modular_text" />
 
             <TextView
                 android:id="@+id/loginServerUrlFormLearnMore"
                 style="@style/Widget.Vector.TextView.Body"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
                 android:text="@string/login_server_modular_learn_more"
+                android:textAlignment="center"
                 android:textColor="?colorPrimary" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -87,12 +92,13 @@
             <TextView
                 android:id="@+id/loginServerUrlFormNotice"
                 style="@style/Widget.Vector.TextView.Caption"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="6dp"
                 android:gravity="start"
                 android:textColor="?vctr_content_secondary"
-                tools:text="@string/login_server_url_form_common_notice" />
+                tools:text="@string/login_server_url_form_common_notice"
+                android:textAlignment="center" />
 
             <Button
                 android:id="@+id/loginServerUrlFormSubmit"

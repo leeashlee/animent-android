@@ -10,6 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
+        android:layout_margin="10dp"
         android:overScrollMode="always"
         tools:itemCount="2"
         tools:listitem="@layout/item_search_result" />
