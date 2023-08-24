@@ -8,8 +8,8 @@
     <dimen name="layout_vertical_margin">16dp</dimen>
     <dimen name="layout_vertical_margin_big">32dp</dimen>
 
-    <dimen name="profile_avatar_size">50dp</dimen>
-    <dimen name="typing_avatar_size">20dp</dimen>
+    <dimen name="profile_avatar_size">30dp</dimen>
+    <dimen name="typing_avatar_size">18dp</dimen>
     <dimen name="item_event_message_state_size">14dp</dimen>
 
     <dimen name="item_event_message_media_button_size">32dp</dimen>
