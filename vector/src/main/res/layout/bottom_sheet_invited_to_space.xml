@@ -69,7 +69,8 @@
 
         <include
             android:id="@+id/spaceCard"
-            layout="@layout/fragment_matrix_to_room_space_card" />
+            layout="@layout/fragment_matrix_to_room_space_card"
+            android:layout_margin="10dp" />
 
     </LinearLayout>
 

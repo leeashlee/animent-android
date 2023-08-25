@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?colorSurface"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:padding="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -124,10 +125,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:actionTitle="@string/add_space"
+        app:betaAction="true"
         app:leftIcon="@drawable/ic_fab_add"
         app:tint="?vctr_content_secondary"
         app:titleTextColor="?vctr_content_primary"
-        app:betaAction="true"
         tools:actionDescription="" />
 
     <im.vector.app.core.ui.views.BottomSheetActionButton

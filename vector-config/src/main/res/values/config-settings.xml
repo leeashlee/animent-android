@@ -32,6 +32,8 @@
 
     <!-- Level 1: Voice and video -->
 
+    <!-- Level 1: layout preferences -->
+
     <!-- Level 1: Security and Privacy -->
 
     <bool name="settings_ignored_users_visible">true</bool>
