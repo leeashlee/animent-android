@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:layout_margin="10dp"
     android:background="?android:colorBackground"
     android:orientation="vertical"
     android:padding="16dp">
@@ -15,6 +16,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="12dp"
         android:gravity="start"
+        android:textAlignment="center"
         android:textColor="?vctr_content_primary"
         android:textStyle="bold"
         tools:text="@string/upgrade_public_room" />
@@ -27,6 +29,7 @@
         android:layout_marginBottom="8dp"
         android:gravity="start"
         android:text="@string/upgrade_room_warning"
+        android:textAlignment="center"
         android:textColor="?vctr_content_secondary" />
 
     <TextView
@@ -36,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:gravity="start"
+        android:textAlignment="center"
         android:textColor="?vctr_content_secondary"
         tools:text="@string/upgrade_public_room_from_to" />
 
