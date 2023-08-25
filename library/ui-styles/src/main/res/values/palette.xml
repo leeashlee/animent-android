@@ -28,18 +28,18 @@
 
     <!-- For light themes -->
     <color name="palette_gray_25">#FAF9F4</color>
-    <color name="palette_gray_50">#F0ECE3</color>
-    <color name="palette_gray_100">#CDC9C1</color>
-    <color name="palette_gray_150">#A59A8D</color>
-    <color name="palette_gray_200">#8C8573</color>
+    <color name="palette_gray_50">#DDD8CC</color>
+    <color name="palette_gray_100">#AEA89E</color>
+    <color name="palette_gray_150">#887E73</color>
+    <color name="palette_gray_200">#716C5B</color>
     <color name="palette_black_900">#1C1A17</color>
     <!-- (unused) -->
     <color name="palette_ice">#F4F9FD</color>
 
     <!-- For dark themes -->
-    <color name="palette_gray_250">#B3A9BC</color>
-    <color name="palette_gray_300">#998EA4</color>
-    <color name="palette_gray_400">#7A6F82</color>
+    <color name="palette_gray_250">#D0C7D8</color>
+    <color name="palette_gray_300">#6C6175</color>
+    <color name="palette_gray_400">#72677A</color>
     <color name="palette_gray_450">#423949</color>
     <color name="palette_black_800">#624F71</color>
     <color name="palette_black_950">#4A3C55</color>
