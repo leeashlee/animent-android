@@ -13,4 +13,5 @@
         android:contentDescription="@string/a11y_image"
         tools:src="@tools:sample/backgrounds/scenic" />
 
+
 </FrameLayout>
