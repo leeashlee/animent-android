@@ -28,7 +28,7 @@
             android:id="@+id/attachmentPreviewerToolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/transparent"
+            android:background="#40000000"
             app:titleTextColor="@android:color/white"
             tools:title="Title" />
 
@@ -47,7 +47,7 @@
             android:id="@+id/attachmentPreviewerMiniatureList"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:padding="8dp"
+            android:padding="10dp"
             app:layout_constraintBottom_toTopOf="@id/attachmentPreviewerSendImageOriginalSize"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
