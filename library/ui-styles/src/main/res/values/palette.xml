@@ -24,7 +24,7 @@
     <color name="palette_ems">#B4A8FF</color>
     <color name="palette_celestial">#90BAD5</color>
     <color name="palette_prune">#B88FBF</color>
-    <color name="palette_links">#6F5980</color>
+    <color name="palette_links">#7B9EB5</color>
 
     <!-- For light themes -->
     <color name="palette_gray_25">#FAF9F4</color>
@@ -38,10 +38,10 @@
 
     <!-- For dark themes -->
     <color name="palette_gray_250">#D0C7D8</color>
-    <color name="palette_gray_300">#6C6175</color>
-    <color name="palette_gray_400">#72677A</color>
-    <color name="palette_gray_450">#423949</color>
-    <color name="palette_black_800">#624F71</color>
+    <color name="palette_gray_300">#B2A8BC</color>
+    <color name="palette_gray_400">#95899F</color>
+    <color name="palette_gray_450">#7C7087</color>
+    <color name="palette_black_800">#6A5977</color>
     <color name="palette_black_950">#4A3C55</color>
 
 </resources>

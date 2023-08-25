@@ -3,9 +3,9 @@
 
     <!-- Timeline bubble background colors -->
     <attr name="vctr_message_bubble_inbound" format="color" />
-    <color name="vctr_message_bubble_inbound_light">#FFE9B0</color>
-    <color name="vctr_message_bubble_inbound_dark">#DDC26C</color>
+    <color name="vctr_message_bubble_inbound_light">#F1DCA5</color>
+    <color name="vctr_message_bubble_inbound_dark">#E7CF80</color>
     <attr name="vctr_message_bubble_outbound" format="color" />
     <color name="vctr_message_bubble_outbound_light">#DBAFE3</color>
-    <color name="vctr_message_bubble_outbound_dark">#B793BD</color>
+    <color name="vctr_message_bubble_outbound_dark">#86658C</color>
 </resources>
