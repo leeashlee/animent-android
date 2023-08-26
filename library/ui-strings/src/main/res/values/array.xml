@@ -50,6 +50,20 @@
         <item>black</item>
     </string-array>
 
+    <!-- Accents -->
+
+    <string-array name="accents_entries">
+        <item>@string/Celestial</item>
+        <item>@string/material_design</item>
+        <item>@string/baby_pink</item>
+    </string-array>
+
+    <string-array name="accents_values">
+        <item>celestial</item>
+        <item>materialDesign</item>
+        <item>pink</item>
+    </string-array>
+
     <!-- media saving choice list -->
     <string-array name="media_saving_choice">
         <item>@string/media_saving_period_3_days</item>

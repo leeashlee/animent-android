@@ -304,6 +304,9 @@
     <string name="light_theme">Light Theme</string>
     <string name="dark_theme">Dark Theme</string>
     <string name="black_theme">Black Theme</string>
+    <string name="Celestial">Celestial</string>
+    <string name="material_design">Material Design</string>
+    <string name="baby_pink">Baby Pink</string>
 
     <!-- permanent notification subtitle -->
     <string name="notification_listening_for_events">Listening for events</string>
@@ -1250,6 +1253,7 @@
     <string name="room_settings_unset_main_address">Unset as main address</string>
 
     <string name="settings_theme">Theme</string>
+    <string name="settings_accent">Accent</string>
 
     <string name="encryption_information_decryption_error">Decryption error</string>
 
