@@ -2503,4 +2503,6 @@
 \nזה יהיה מעבר חד פעמי שכן שרשורים הם כעת חלק ממפרט Matrix.</string>
     <string name="screen_sharing_notification_title">שיתוף מסך של ${app_name}</string>
     <string name="screen_sharing_notification_description">המסך משותף כרגע</string>
+    <string name="settings_accent">גוון</string>
+    <string name="Celestial">סלסטיאל</string>
 </resources>
