@@ -53,14 +53,14 @@
     <!-- Accents -->
 
     <string-array name="accents_entries">
-        <item>@string/Celestial</item>
         <item>@string/material_design</item>
+        <item>@string/Celestial</item>
         <item>@string/baby_pink</item>
     </string-array>
 
     <string-array name="accents_values">
-        <item>celestial</item>
         <item>materialDesign</item>
+        <item>celestial</item>
         <item>pink</item>
     </string-array>
 
