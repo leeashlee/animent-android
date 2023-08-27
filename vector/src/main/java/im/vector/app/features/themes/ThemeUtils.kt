@@ -39,17 +39,23 @@ import java.util.concurrent.atomic.AtomicReference
 object ThemeUtils {
     // preference key
     const val APPLICATION_THEME_KEY = "APPLICATION_THEME_KEY"
+    const val APPLICATION_ACCENTS_KEY = "APPLICATION_ACCENTS_KEY"
 
     // the theme possible values
     private const val SYSTEM_THEME_VALUE = "system"
     private const val THEME_DARK_VALUE = "dark"
     private const val THEME_LIGHT_VALUE = "light"
     private const val THEME_BLACK_VALUE = "black"
+    private const val ACCENTS_MATERIALDESIGN_VALUE = "materialDesign"
+    private const val ACCENTS_CELESTIAL_VALUE = "celestial"
+    private const val ACCENTS_BABYPINK_VALUE = "babyPink"
 
     // The default theme
     private const val DEFAULT_THEME = SYSTEM_THEME_VALUE
+    private const val DEFAULT_ACCENT = ACCENTS_MATERIALDESIGN_VALUE
 
     private var currentTheme = AtomicReference<String>(null)
+    private var currentAccent = AtomicReference<String>(null)
 
     private val mColorByAttr = HashMap<Int, Int>()
 

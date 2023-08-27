@@ -61,7 +61,7 @@
     <string-array name="accents_values">
         <item>materialDesign</item>
         <item>celestial</item>
-        <item>pink</item>
+        <item>babyPink</item>
     </string-array>
 
     <!-- media saving choice list -->
