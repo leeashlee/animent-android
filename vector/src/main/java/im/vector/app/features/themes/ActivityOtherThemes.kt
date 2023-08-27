@@ -29,7 +29,7 @@ sealed class ActivityOtherThemes(
 ) {
 
     object Default : ActivityOtherThemes(
-            R.style.Theme_Vector_Dark,
+            R.style.Theme_Celestial_Vector_Dark,
             R.style.Theme_Vector_Black
     )
 

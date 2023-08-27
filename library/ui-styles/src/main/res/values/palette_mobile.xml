@@ -10,8 +10,8 @@
     <color name="element_alert_light">@color/palette_vermilion</color>
     <color name="element_alert_dark">@color/palette_vermilion</color>
 
-    <color name="c_element_link_light">@color/palette_links</color>
-    <color name="c_element_link_dark">@color/palette_links</color>
+    <color name="c_element_link_light">@color/c_palette_links</color>
+    <color name="c_element_link_dark">@color/c_palette_links</color>
 
     <!-- attr for content colors -->
     <attr name="vctr_content_primary" format="color" />
@@ -20,24 +20,24 @@
     <attr name="vctr_content_quaternary" format="color" />
     <attr name="vctr_content_quinary" format="color" />
 
-    <color name="c_element_content_primary_light">@color/palette_black_900</color>
-    <color name="c_element_content_secondary_light">@color/palette_gray_200</color>
-    <color name="c_element_content_tertiary_light">@color/palette_gray_150</color>
-    <color name="c_element_content_quaternary_light">@color/palette_gray_100</color>
-    <color name="c_element_content_quinary_light">@color/palette_gray_50</color>
+    <color name="c_element_content_primary_light">@color/c_palette_black_900</color>
+    <color name="c_element_content_secondary_light">@color/c_palette_gray_200</color>
+    <color name="c_element_content_tertiary_light">@color/c_palette_gray_150</color>
+    <color name="c_element_content_quaternary_light">@color/c_palette_gray_100</color>
+    <color name="c_element_content_quinary_light">@color/c_palette_gray_50</color>
 
     <color name="c_element_content_primary_dark">@color/palette_white</color>
-    <color name="c_element_content_secondary_dark">@color/palette_gray_250</color>
-    <color name="c_element_content_tertiary_dark">@color/palette_gray_300</color>
-    <color name="c_element_content_quaternary_dark">@color/palette_gray_400</color>
-    <color name="c_element_content_quinary_dark">@color/palette_gray_450</color>
+    <color name="c_element_content_secondary_dark">@color/c_palette_gray_250</color>
+    <color name="c_element_content_tertiary_dark">@color/c_palette_gray_300</color>
+    <color name="c_element_content_quaternary_dark">@color/c_palette_gray_400</color>
+    <color name="c_element_content_quinary_dark">@color/c_palette_gray_450</color>
 
     <attr name="vctr_system" format="color" />
-    <color name="c_element_system_light">@color/palette_gray_25</color>
-    <color name="c_element_system_dark">@color/palette_black_950</color>
+    <color name="c_element_system_light">@color/c_palette_gray_25</color>
+    <color name="c_element_system_dark">@color/c_palette_black_950</color>
 
     <color name="c_element_background_light">@color/palette_white</color>
-    <color name="element_background_dark">@color/palette_black_800</color>
+    <color name="element_background_dark">@color/c_palette_black_800</color>
     <color name="element_background_black">@android:color/black</color>
 
     <color name="c_element_name_01">@color/palette_azure</color>

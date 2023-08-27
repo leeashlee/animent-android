@@ -83,7 +83,7 @@ abstract class ThreadListItem : VectorEpoxyModel<ThreadListItem.Holder>(R.layout
         when (threadNotificationState) {
             ThreadNotificationState.NEW_MESSAGE -> {
                 holder.unreadImageView.isVisible = true
-                holder.unreadImageView.setColorFilter(ContextCompat.getColor(holder.view.context, R.color.palette_gray_200))
+                holder.unreadImageView.setColorFilter(ContextCompat.getColor(holder.view.context, R.color.c_palette_gray_200))
             }
             ThreadNotificationState.NEW_HIGHLIGHTED_MESSAGE -> {
                 holder.unreadImageView.isVisible = true

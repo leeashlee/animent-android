@@ -31,7 +31,7 @@
             android:paddingStart="2dp"
             android:paddingEnd="2dp"
             android:layout_gravity="top|end"
-            android:backgroundTint="@color/palette_gray_200"
+            android:backgroundTint="@color/c_palette_gray_200"
             android:background="@drawable/notification_badge"
             android:visibility="visible"
             tools:visibility="visible">

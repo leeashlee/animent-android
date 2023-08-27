@@ -32,7 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:theme="@style/Theme.Celestial.Vector.Black">
+        android:theme="@style/Theme.Vector.Black">
 
         <include layout="@layout/demo_theme_sample" />
 
