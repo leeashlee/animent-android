@@ -9,12 +9,12 @@
         <item name="android:navigationBarColor">@color/element_accent_light</item>
     </style>
 
-    <style name="Theme.Vector.Black.AttachmentsPreview">
+    <style name="Theme.Celestial.Vector.Black.AttachmentsPreview">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/transparent</item>
     </style>
 
-    <style name="Theme.Vector.Black.Transparent">
+    <style name="Theme.Celestial.Vector.Black.Transparent">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
