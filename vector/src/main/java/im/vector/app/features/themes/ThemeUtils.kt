@@ -105,6 +105,23 @@ object ThemeUtils {
         }
     }
 
+    fun getApplicationAccent(context: Context): String {
+        val currentAccent = this.currentAccent.get()
+        return if (currentAccent == null) {
+            val prefs = PreferenceManager.getDefaultSharedPreferences(context.applicationContext)
+            var accentFromPref = prefs.getString(APPLICATION_ACCENTS_KEY, DEFAULT_ACCENT) ?: DEFAULT_ACCENT
+            if (accentFromPref == "status") {
+                // Migrate to the default theme
+                accentFromPref = DEFAULT_ACCENT
+                prefs.edit { putString(APPLICATION_ACCENTS_KEY, DEFAULT_ACCENT) }
+            }
+            this.currentAccent.set(accentFromPref)
+            accentFromPref
+        } else {
+            currentAccent
+        }
+    }
+
     /**
      * @return true if system theme is dark
      */
