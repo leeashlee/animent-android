@@ -12,6 +12,8 @@
 
     <color name="c_element_link_light">@color/c_palette_links</color>
     <color name="c_element_link_dark">@color/c_palette_links</color>
+    <color name="p_element_link_light">@color/p_palette_links</color>
+    <color name="p_element_link_dark">@color/p_palette_links</color>
 
     <!-- attr for content colors -->
     <attr name="vctr_content_primary" format="color" />
@@ -26,18 +28,33 @@
     <color name="c_element_content_quaternary_light">@color/c_palette_gray_100</color>
     <color name="c_element_content_quinary_light">@color/c_palette_gray_50</color>
 
+    <color name="p_element_content_primary_light">@color/p_palette_black_900</color>
+    <color name="p_element_content_secondary_light">@color/p_palette_gray_200</color>
+    <color name="p_element_content_tertiary_light">@color/p_palette_gray_150</color>
+    <color name="p_element_content_quaternary_light">@color/p_palette_gray_100</color>
+    <color name="p_element_content_quinary_light">@color/p_palette_gray_50</color>
+
     <color name="c_element_content_primary_dark">@color/palette_white</color>
     <color name="c_element_content_secondary_dark">@color/c_palette_gray_250</color>
     <color name="c_element_content_tertiary_dark">@color/c_palette_gray_300</color>
     <color name="c_element_content_quaternary_dark">@color/c_palette_gray_400</color>
     <color name="c_element_content_quinary_dark">@color/c_palette_gray_450</color>
 
+    <color name="p_element_content_primary_dark">@color/palette_white</color>
+    <color name="p_element_content_secondary_dark">@color/p_palette_gray_250</color>
+    <color name="p_element_content_tertiary_dark">@color/p_palette_gray_300</color>
+    <color name="p_element_content_quaternary_dark">@color/p_palette_gray_400</color>
+    <color name="p_element_content_quinary_dark">@color/p_palette_gray_450</color>
+
     <attr name="vctr_system" format="color" />
     <color name="c_element_system_light">@color/c_palette_gray_25</color>
     <color name="c_element_system_dark">@color/c_palette_black_950</color>
+    <color name="p_element_system_light">@color/p_palette_gray_25</color>
+    <color name="p_element_system_dark">@color/p_palette_black_950</color>
 
-    <color name="c_element_background_light">@color/palette_white</color>
-    <color name="element_background_dark">@color/c_palette_black_800</color>
+    <color name="element_background_light">@color/palette_white</color>
+    <color name="c_element_background_dark">@color/c_palette_black_800</color>
+    <color name="p_element_background_dark">@color/p_palette_black_800</color>
     <color name="element_background_black">@android:color/black</color>
 
     <color name="c_element_name_01">@color/palette_azure</color>
@@ -49,8 +66,21 @@
     <color name="c_element_name_07">@color/palette_prune</color>
     <color name="c_element_name_08">@color/palette_aqua</color>
 
+    <color name="p_element_name_01">@color/palette_angelic_blush</color>
+    <color name="p_element_name_02">@color/palette_baby_peach</color>
+    <color name="p_element_name_03">@color/palette_grayish_brown</color>
+    <color name="p_element_name_04">@color/palette_warm_brown</color>
+    <color name="p_element_name_05">@color/palette_brown</color>
+    <color name="p_element_name_06">@color/p_palette_gray_100</color>
+    <color name="p_element_name_07">@color/palette_baby_pink</color>
+    <color name="p_element_name_08">@color/palette_rose_gold</color>
+
     <!-- Also create alias for rooms -->
     <color name="c_element_room_01">@color/palette_verde</color>
     <color name="c_element_room_02">@color/palette_azure</color>
     <color name="c_element_room_03">@color/palette_grape</color>
+
+    <color name="p_element_room_01">@color/palette_grayish_brown</color>
+    <color name="p_element_room_02">@color/palette_angelic_blush</color>
+    <color name="p_element_room_03">@color/palette_baby_peach</color>
 </resources>

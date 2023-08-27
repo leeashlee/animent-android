@@ -140,7 +140,7 @@ abstract class SettingsTextButtonSingleLineItem : VectorEpoxyModel<SettingsTextB
                 holder.textView.setCompoundDrawables(null, null, null, null)
             }
             IconMode.INFO -> {
-                val errorColor = colorProvider.getColor(R.color.notification_accent_color)
+                val errorColor = colorProvider.getColor(R.color.c_notification_accent_color)
                 ContextCompat.getDrawable(holder.view.context, R.drawable.ic_notification_privacy_warning)?.apply {
                     ThemeUtils.tintDrawableWithColor(this, errorColor)
                     holder.textView.setCompoundDrawablesWithIntrinsicBounds(this, null, null, null)

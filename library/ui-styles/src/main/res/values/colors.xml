@@ -10,8 +10,10 @@
     <color name="hard_resource_limit_exceeded">?colorError</color>
 
     <!-- Notification (do not depends on theme) -->
-    <color name="notification_accent_color">@color/palette_azure</color>
-    <color name="key_share_req_accent_color">@color/palette_melon</color>
+    <color name="c_notification_accent_color">@color/palette_azure</color>
+    <color name="c_key_share_req_accent_color">@color/palette_melon</color>
+    <color name="p_notification_accent_color">@color/palette_angelic_blush</color>
+    <color name="p_key_share_req_accent_color">@color/palette_brown</color>
 
     <!-- Source: https://zpl.io/aBKw9Mk -->
 
@@ -31,10 +33,15 @@
     <color name="black_54">#8A000000</color>
 
     <!-- For Android status bar and navigation bar -->
-    <color name="android_status_bar_background_light">@color/c_element_system_light</color>
-    <color name="android_navigation_bar_background_light">@color/c_element_system_light</color>
-    <color name="android_status_bar_background_dark">@color/element_background_dark</color>
-    <color name="android_navigation_bar_background_dark">@color/c_element_system_dark</color>
+    <color name="c_android_status_bar_background_light">@color/c_element_system_light</color>
+    <color name="c_android_navigation_bar_background_light">@color/c_element_system_light</color>
+    <color name="c_android_status_bar_background_dark">@color/c_element_background_dark</color>
+    <color name="c_android_navigation_bar_background_dark">@color/c_element_system_dark</color>
+
+    <color name="p_android_status_bar_background_light">@color/p_element_system_light</color>
+    <color name="p_android_navigation_bar_background_light">@color/p_element_system_light</color>
+    <color name="p_android_status_bar_background_dark">@color/p_element_background_dark</color>
+    <color name="p_android_navigation_bar_background_dark">@color/p_element_system_dark</color>
 
     <!-- Used for toolbar background -->
     <attr name="vctr_toolbar_background" format="color" />
@@ -114,13 +121,18 @@
     <color name="vctr_chat_effect_snow_background_dark">@android:color/transparent</color>
 
     <attr name="vctr_toast_background" format="color" />
-    <color name="vctr_toast_background_light">@color/c_palette_black_900</color>
-    <color name="vctr_toast_background_dark">@color/c_palette_gray_400</color>
+    <color name="c_vctr_toast_background_light">@color/c_palette_black_900</color>
+    <color name="c_vctr_toast_background_dark">@color/c_palette_gray_400</color>
+    <color name="p_vctr_toast_background_light">@color/p_palette_black_900</color>
+    <color name="p_vctr_toast_background_dark">@color/p_palette_gray_400</color>
 
     <!-- Presence Indicator colors -->
     <attr name="vctr_presence_indicator_offline" format="color" />
-    <color name="vctr_presence_indicator_offline_light">@color/c_palette_gray_100</color>
-    <color name="vctr_presence_indicator_offline_dark">@color/c_palette_gray_450</color>
+    <color name="c_vctr_presence_indicator_offline_light">@color/c_palette_gray_100</color>
+    <color name="c_vctr_presence_indicator_offline_dark">@color/c_palette_gray_450</color>
+    <color name="p_vctr_presence_indicator_offline_light">@color/p_palette_gray_100</color>
+    <color name="p_vctr_presence_indicator_offline_dark">@color/p_palette_gray_450</color>
+
 
     <attr name="vctr_presence_indicator_online" format="color" />
     <color name="vctr_presence_indicator_online_light">@color/palette_element_mustard</color>
@@ -136,8 +148,10 @@
 
     <!-- Location sharing colors -->
     <attr name="vctr_live_location" format="color" />
-    <color name="vctr_live_location_light">@color/palette_prune</color>
-    <color name="vctr_live_location_dark">@color/palette_prune</color>
+    <color name="c_vctr_live_location_light">@color/palette_prune</color>
+    <color name="c_vctr_live_location_dark">@color/palette_prune</color>
+    <color name="p_vctr_live_location_light">@color/palette_baby_pink</color>
+    <color name="p_vctr_live_location_dark">@color/palette_baby_pink</color>
 
     <!-- Shield colors -->
     <color name="shield_color_trust">#0DBD8B</color>
@@ -146,12 +160,14 @@
     <color name="shield_color_gray">#91A1C0</color>
     <color name="shield_color_warning">#FF4B55</color>
     <color name="shield_color_warning_background">#0FFF4B55</color>
-    <color name="shield_color_unknown">@color/c_palette_gray_200</color>
+    <color name="c_shield_color_unknown">@color/c_palette_gray_200</color>
+    <color name="p_shield_color_unknown">@color/p_palette_gray_200</color>
 
     <!-- Badge Colors -->
     <attr name="vctr_badge_color_border" format="color" />
     <color name="vctr_badge_color_border_light">@color/palette_white</color>
-    <color name="vctr_badge_color_border_dark">@color/c_palette_black_950</color>
+    <color name="c_vctr_badge_color_border_dark">@color/c_palette_black_950</color>
+    <color name="p_vctr_badge_color_border_dark">@color/p_palette_black_950</color>
 
     <!-- WYSIWYG Colors -->
     <attr name="vctr_rich_text_editor_menu_button_background" format="color" />

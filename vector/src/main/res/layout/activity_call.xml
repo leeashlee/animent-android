@@ -61,7 +61,7 @@
             android:layout_height="@dimen/call_pip_height"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:background="@color/c_element_background_light"
+            android:background="@color/element_background_light"
             android:foreground="?attr/selectableItemBackground"
             android:visibility="gone"
             app:cardBackgroundColor="@color/bg_call_screen"
@@ -102,11 +102,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navigationIcon="@drawable/ic_back_24dp"
-        app:navigationIconTint="@color/c_element_background_light"
+        app:navigationIconTint="@color/element_background_light"
         app:subtitle="3:10"
-        app:subtitleTextColor="@color/c_element_background_light"
+        app:subtitleTextColor="@color/element_background_light"
         app:title="Video call"
-        app:titleTextColor="@color/c_element_background_light" />
+        app:titleTextColor="@color/element_background_light" />
 
     <ImageView
         android:id="@+id/otherMemberAvatar"

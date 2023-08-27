@@ -15,7 +15,7 @@
     </style>
 
     <style name="Widget.Vector.JumpToUnread.Light" parent="Widget.Vector.JumpToUnread.Base">
-        <item name="chipBackgroundColor">@color/c_element_background_light</item>
+        <item name="chipBackgroundColor">@color/element_background_light</item>
         <item name="closeIconTint">?vctr_content_secondary</item>
     </style>
 
