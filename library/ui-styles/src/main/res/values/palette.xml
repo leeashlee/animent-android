@@ -24,25 +24,25 @@
     <color name="palette_ems">#B4A8FF</color>
     <color name="palette_celestial">#90BAD5</color>
     <color name="palette_prune">#B88FBF</color>
-    <color name="palette_links">#7B9EB5</color>
+    <color name="c_palette_links">#7B9EB5</color>
 
     <!-- For light themes -->
-    <color name="palette_gray_25">#FAF9F4</color>
-    <color name="palette_gray_50">#DDD8CC</color>
-    <color name="palette_gray_100">#AEA89E</color>
-    <color name="palette_gray_150">#887E73</color>
-    <color name="palette_gray_200">#716C5B</color>
-    <color name="palette_black_900">#1C1A17</color>
+    <color name="c_palette_gray_25">#FAF9F4</color>
+    <color name="c_palette_gray_50">#DDD8CC</color>
+    <color name="c_palette_gray_100">#AEA89E</color>
+    <color name="c_palette_gray_150">#887E73</color>
+    <color name="c_palette_gray_200">#716C5B</color>
+    <color name="c_palette_black_900">#1C1A17</color>
     <!-- (unused) -->
     <color name="palette_ice">#F4F9FD</color>
 
     <!-- For dark themes -->
-    <color name="palette_gray_250">#D0C7D8</color>
-    <color name="palette_gray_300">#B2A8BC</color>
-    <color name="palette_gray_400">#95899F</color>
-    <color name="palette_gray_450">#7C7087</color>
-    <color name="palette_black_800">#6A5977</color>
-    <color name="palette_black_950">#4A3C55</color>
+    <color name="c_palette_gray_250">#D0C7D8</color>
+    <color name="c_palette_gray_300">#B2A8BC</color>
+    <color name="c_palette_gray_400">#95899F</color>
+    <color name="c_palette_gray_450">#7C7087</color>
+    <color name="c_palette_black_800">#6A5977</color>
+    <color name="c_palette_black_950">#4A3C55</color>
 
     <!-- Baby Pink -->
     <color name="palette_brown">#A07880</color>
@@ -54,20 +54,20 @@
     <color name="palette_baby_peach">#F8D0D8</color>
 
     <!-- For Light Theme -->
-    <color name="palette_4">#E8E8E8</color>
-    <color name="palette_10">#E0D0D0</color>
-    <color name="palette_5">#D0B0B8</color>
-    <color name="palette_11_A">#A88890</color>
-    <color name="palette_13_A">#906870</color>
-    <color name="palette_12_A">#705058</color>
+    <color name="p_palette_gray_25">#E8E8E8</color>
+    <color name="p_palette_gray_50">#E0D0D0</color>
+    <color name="p_palette_gray_100">#D0B0B8</color>
+    <color name="p_palette_gray_150">#A88890</color>
+    <color name="p_palette_gray_200">#906870</color>
+    <color name="p_palette_black_900">#705058</color>
 
     <!-- For Dark Theme -->
-    <color name="palette_14">#F0D8D8</color>
-    <color name="palette_6">#D8C0C0</color>
-    <color name="palette_1">#C0A0A8</color>
-    <color name="palette_11_B">#A88890</color>
-    <color name="palette_13_B">#906870</color>
-    <color name="palette_12_B">#705058</color>
+    <color name="p_palette_gray_250">#F0D8D8</color>
+    <color name="p_palette_gray_300">#D8C0C0</color>
+    <color name="p_palette_gray_400">#C0A0A8</color>
+    <color name="p_palette_gray_450">#A88890</color>
+    <color name="p_palette_black_800">#906870</color>
+    <color name="p_palette_black_950">#705058</color>
 
     <!-- Material Design (allegedly) -->
 

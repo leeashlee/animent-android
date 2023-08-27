@@ -3,7 +3,7 @@
 
     <!-- DARK THEME COLORS -->
 
-    <style name="Base.Theme.Celestial.Vector.Dark" parent="Theme.MaterialComponents.NoActionBar">
+    <style name="Base.Theme.Vector.Dark" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Element attribute for palette -->
         <!-- content colors -->
         <item name="vctr_content_primary">@color/c_element_content_primary_dark</item>
@@ -160,6 +160,6 @@
         <item name="vctr_rich_text_editor_menu_button_background">@color/vctr_rich_text_editor_menu_button_background_dark</item>
     </style>
 
-    <style name="Theme.Celestial.Vector.Dark" parent="Base.Theme.Celestial.Vector.Dark" />
+    <style name="Theme.Celestial.Vector.Dark" parent="Base.Theme.Vector.Dark" />
 
 </resources>

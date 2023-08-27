@@ -930,7 +930,7 @@ class TimelineFragment :
             badgeFrameLayout.isVisible = true
             badgeTextView.text = unreadThreadMessages.toString()
             val badgeDrawable = DrawableCompat.wrap(badgeFrameLayout.background)
-            val color = ContextCompat.getColor(requireContext(), if (userIsMentioned) R.color.palette_vermilion else R.color.palette_gray_200)
+            val color = ContextCompat.getColor(requireContext(), if (userIsMentioned) R.color.palette_vermilion else R.color.c_palette_gray_200)
             DrawableCompat.setTint(badgeDrawable, color)
             badgeFrameLayout.background = badgeDrawable
         } else {

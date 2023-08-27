@@ -114,13 +114,13 @@
     <color name="vctr_chat_effect_snow_background_dark">@android:color/transparent</color>
 
     <attr name="vctr_toast_background" format="color" />
-    <color name="vctr_toast_background_light">@color/palette_black_900</color>
-    <color name="vctr_toast_background_dark">@color/palette_gray_400</color>
+    <color name="vctr_toast_background_light">@color/c_palette_black_900</color>
+    <color name="vctr_toast_background_dark">@color/c_palette_gray_400</color>
 
     <!-- Presence Indicator colors -->
     <attr name="vctr_presence_indicator_offline" format="color" />
-    <color name="vctr_presence_indicator_offline_light">@color/palette_gray_100</color>
-    <color name="vctr_presence_indicator_offline_dark">@color/palette_gray_450</color>
+    <color name="vctr_presence_indicator_offline_light">@color/c_palette_gray_100</color>
+    <color name="vctr_presence_indicator_offline_dark">@color/c_palette_gray_450</color>
 
     <attr name="vctr_presence_indicator_online" format="color" />
     <color name="vctr_presence_indicator_online_light">@color/palette_element_mustard</color>
@@ -146,12 +146,12 @@
     <color name="shield_color_gray">#91A1C0</color>
     <color name="shield_color_warning">#FF4B55</color>
     <color name="shield_color_warning_background">#0FFF4B55</color>
-    <color name="shield_color_unknown">@color/palette_gray_200</color>
+    <color name="shield_color_unknown">@color/c_palette_gray_200</color>
 
     <!-- Badge Colors -->
     <attr name="vctr_badge_color_border" format="color" />
     <color name="vctr_badge_color_border_light">@color/palette_white</color>
-    <color name="vctr_badge_color_border_dark">@color/palette_black_950</color>
+    <color name="vctr_badge_color_border_dark">@color/c_palette_black_950</color>
 
     <!-- WYSIWYG Colors -->
     <attr name="vctr_rich_text_editor_menu_button_background" format="color" />

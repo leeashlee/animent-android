@@ -67,7 +67,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/threadSummaryDateTextView"
         app:layout_constraintTop_toTopOf="@id/threadSummaryDateTextView"
-        app:tint="@color/palette_gray_200"
+        app:tint="@color/c_palette_gray_200"
         tools:ignore="ContentDescription"
         tools:visibility="visible" />
 
