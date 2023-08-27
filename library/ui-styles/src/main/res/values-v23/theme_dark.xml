@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Vector.Dark.v23" parent="Base.Theme.Vector.Dark">
+    <style name="Theme.Vector.Dark.v23" parent="Base.Theme.Celestial.Vector.Dark">
         <item name="android:windowLightStatusBar">false</item>
     </style>
 
