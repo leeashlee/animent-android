@@ -94,7 +94,7 @@ class SpacePeopleListController @Inject constructor(
                                                     powerLevelLabel(
                                                             span {
                                                                 span(" $pl ") {
-                                                                    backgroundColor = host.colorProvider.getColor(R.color.notification_accent_color)
+                                                                    backgroundColor = host.colorProvider.getColor(R.color.c_notification_accent_color)
                                                                     paddingTop = host.dimensionConverter.dpToPx(2)
                                                                     paddingBottom = host.dimensionConverter.dpToPx(2)
                                                                     textColor = host.colorProvider.getColorFromAttribute(R.attr.colorOnPrimary)

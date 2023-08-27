@@ -46,7 +46,7 @@ fun createUCropWithDefaultSettings(
                                 // Background
                                 setRootViewBackgroundColor(colorProvider.getColorFromAttribute(android.R.attr.colorBackground))
                                 // Status bar color (pb in dark mode, icon of the status bar are dark)
-                                setStatusBarColor(colorProvider.getColor(R.color.android_status_bar_background_light))
+                                setStatusBarColor(colorProvider.getColor(R.color.c_android_status_bar_background_light))
                                 setActiveControlsWidgetColor(colorProvider.getColorFromAttribute(R.attr.colorPrimary))
                                 // Hide the logo (does not work)
                                 setLogoColor(Color.TRANSPARENT)

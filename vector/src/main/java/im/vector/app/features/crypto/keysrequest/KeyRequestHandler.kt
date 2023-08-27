@@ -212,7 +212,7 @@ class KeyRequestHandler @Inject constructor(
                 R.drawable.key_small
         )
 
-        alert.colorRes = R.color.key_share_req_accent_color
+        alert.colorRes = R.color.c_key_share_req_accent_color
 
         val mappingKey = keyForMap(userId, deviceId)
         alert.dismissedAction = Runnable {

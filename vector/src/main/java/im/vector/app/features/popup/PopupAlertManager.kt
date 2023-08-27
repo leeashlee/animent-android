@@ -297,7 +297,7 @@ class PopupAlertManager @Inject constructor(
                     } else if (alert.colorAttribute != null) {
                         setBackgroundColorInt(ThemeUtils.getColor(activity, alert.colorAttribute!!))
                     } else {
-                        setBackgroundColorRes(alert.colorRes ?: R.color.notification_accent_color)
+                        setBackgroundColorRes(alert.colorRes ?: R.color.c_notification_accent_color)
                     }
                 }
                 .enableIconPulse(!noAnimation)

@@ -4,12 +4,12 @@
     android:viewportWidth="24"
     android:viewportHeight="24">
     <path
-        android:fillColor="@color/shield_color_unknown"
+        android:fillColor="@color/c_shield_color_unknown"
         android:pathData="M12.008,23.487C12.005,23.487 12.002,23.488 12,23.489C11.998,23.488 11.995,23.487 11.992,23.487C11.92,23.471 11.813,23.445 11.675,23.409C11.399,23.337 11.002,23.223 10.523,23.058C9.565,22.725 8.292,22.186 7.022,21.361C4.49,19.715 2,16.954 2,12.405V3.45L12,0.521L22,3.45V12.405C22,16.954 19.51,19.715 16.978,21.361C15.708,22.186 14.435,22.725 13.477,23.058C12.998,23.223 12.601,23.337 12.325,23.409C12.187,23.445 12.08,23.471 12.008,23.487Z"
         android:strokeWidth="1"
         android:strokeColor="#ffffff" />
     <path
-        android:fillColor="@color/shield_color_unknown"
+        android:fillColor="@color/c_shield_color_unknown"
         android:pathData="M1.5,12.405V3.075L12,0L22.5,3.075V12.405C22.5,21.945 12,24 12,24C12,24 1.5,21.945 1.5,12.405Z" />
     <path
         android:fillColor="#ffffff"

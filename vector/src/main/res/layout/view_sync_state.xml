@@ -69,7 +69,7 @@
         android:id="@+id/syncStateNoNetworkAirplane"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/notification_accent_color"
+        android:background="@color/c_notification_accent_color"
         android:visibility="gone"
         tools:layout_marginTop="10dp"
         tools:visibility="visible">

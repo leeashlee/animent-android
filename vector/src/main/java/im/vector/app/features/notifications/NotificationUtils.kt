@@ -134,7 +134,7 @@ class NotificationUtils @Inject constructor(
             return
         }
 
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
 
         // Migration - the noisy channel was deleted and recreated when sound preference was changed (id was DEFAULT_NOISY_NOTIFICATION_CHANNEL_ID_BASE
         // + currentTimeMillis).
@@ -227,7 +227,7 @@ class NotificationUtils @Inject constructor(
         val mainIntent = MainActivity.getIntentWithNextIntent(context, i)
         val pi = PendingIntent.getActivity(context, 0, mainIntent, PendingIntentCompat.FLAG_IMMUTABLE)
 
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
 
         val builder = NotificationCompat.Builder(context, LISTENING_FOR_EVENTS_NOTIFICATION_CHANNEL_ID)
                 .setContentTitle(stringProvider.getString(subTitleResId))
@@ -293,7 +293,7 @@ class NotificationUtils @Inject constructor(
             title: String,
             fromBg: Boolean
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         val notificationChannel = if (fromBg) CALL_NOTIFICATION_CHANNEL_ID else SILENT_NOTIFICATION_CHANNEL_ID
         val builder = NotificationCompat.Builder(context, notificationChannel)
                 .setContentTitle(ensureTitleNotEmpty(title))
@@ -367,7 +367,7 @@ class NotificationUtils @Inject constructor(
             call: WebRtcCall,
             title: String
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         val builder = NotificationCompat.Builder(context, SILENT_NOTIFICATION_CHANNEL_ID)
                 .setContentTitle(ensureTitleNotEmpty(title))
                 .apply {
@@ -582,7 +582,7 @@ class NotificationUtils @Inject constructor(
             senderDisplayNameForReplyCompat: String?,
             tickerText: String
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         // Build the pending intent for when the notification is clicked
         val openIntent = when {
             threadId != null && vectorPreferences.areThreadMessagesEnabled() -> buildOpenThreadIntent(roomInfo, threadId)
@@ -700,7 +700,7 @@ class NotificationUtils @Inject constructor(
             inviteNotifiableEvent: InviteNotifiableEvent,
             matrixId: String
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         // Build the pending intent for when the notification is clicked
         val smallIcon = R.drawable.ic_notification
 
@@ -780,7 +780,7 @@ class NotificationUtils @Inject constructor(
             simpleNotifiableEvent: SimpleNotifiableEvent,
             matrixId: String
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         // Build the pending intent for when the notification is clicked
         val smallIcon = R.drawable.ic_notification
 
@@ -939,7 +939,7 @@ class NotificationUtils @Inject constructor(
             noisy: Boolean,
             lastMessageTimestamp: Long
     ): Notification {
-        val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
+        val accentColor = ContextCompat.getColor(context, R.color.c_notification_accent_color)
         val smallIcon = R.drawable.ic_notification
 
         return NotificationCompat.Builder(context, if (noisy) NOISY_NOTIFICATION_CHANNEL_ID else SILENT_NOTIFICATION_CHANNEL_ID)
@@ -1032,7 +1032,7 @@ class NotificationUtils @Inject constructor(
                         .setContentText(stringProvider.getString(R.string.settings_troubleshoot_test_push_notification_content))
                         .setSmallIcon(R.drawable.ic_notification)
                         .setLargeIcon(getBitmap(context, R.drawable.element_logo_green))
-                        .setColor(ContextCompat.getColor(context, R.color.notification_accent_color))
+                        .setColor(ContextCompat.getColor(context, R.color.c_notification_accent_color))
                         .setPriority(NotificationCompat.PRIORITY_MAX)
                         .setCategory(NotificationCompat.CATEGORY_STATUS)
                         .setAutoCancel(true)

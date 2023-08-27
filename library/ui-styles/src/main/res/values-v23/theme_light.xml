@@ -2,7 +2,7 @@
 <resources>
 
     <style name="Theme.Vector.Light.v23" parent="Base.Theme.Celestial.Vector.Light">
-        <item name="android:statusBarColor">@color/android_status_bar_background_light</item>
+        <item name="android:statusBarColor">@color/c_android_status_bar_background_light</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
