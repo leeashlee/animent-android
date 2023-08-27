@@ -113,7 +113,7 @@
             style="@style/Widget.Vector.Button.Text.Login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/element_background_light"
+            android:backgroundTint="@color/c_element_background_light"
             android:text="@string/ftue_auth_phone_confirmation_resend_code"
             android:textAllCaps="true"
             android:textColor="?colorSecondary"

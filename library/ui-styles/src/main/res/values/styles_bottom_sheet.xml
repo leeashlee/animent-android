@@ -7,13 +7,13 @@
         <item name="colorOnPrimary">@color/palette_white</item>
         <item name="colorSecondary">@color/palette_element_mustard</item>
         <item name="colorOnSecondary">@color/palette_white</item>
-        <item name="colorSurface">@color/element_background_light</item>
-        <item name="colorOnSurface">@color/element_content_primary_light</item>
+        <item name="colorSurface">@color/c_element_background_light</item>
+        <item name="colorOnSurface">@color/c_element_content_primary_light</item>
         <item name="colorError">@color/element_alert_light</item>
         <item name="colorOnError">@color/palette_white</item>
         <!-- Default color for text View -->
-        <item name="android:textColorTertiary">@color/element_content_primary_light</item>
-        <item name="android:textColorLink">@color/element_link_light</item>
+        <item name="android:textColorTertiary">@color/c_element_content_primary_light</item>
+        <item name="android:textColorLink">@color/c_element_link_light</item>
     </style>
 
     <style name="Theme.Vector.BottomSheetDialog.Dark" parent="Theme.MaterialComponents.BottomSheetDialog">
@@ -22,12 +22,12 @@
         <item name="colorSecondary">@color/palette_element_mustard</item>
         <item name="colorOnSecondary">@color/palette_white</item>
         <item name="colorSurface">@color/element_background_dark</item>
-        <item name="colorOnSurface">@color/element_content_primary_dark</item>
+        <item name="colorOnSurface">@color/c_element_content_primary_dark</item>
         <item name="colorError">@color/element_alert_dark</item>
         <item name="colorOnError">@color/palette_white</item>
         <!-- Default color for text View -->
-        <item name="android:textColorTertiary">@color/element_content_primary_dark</item>
-        <item name="android:textColorLink">@color/element_link_dark</item>
+        <item name="android:textColorTertiary">@color/c_element_content_primary_dark</item>
+        <item name="android:textColorLink">@color/c_element_link_dark</item>
     </style>
 
     <style name="Theme.Vector.BottomSheetDialog.Black" parent="Theme.Vector.BottomSheetDialog.Dark">
