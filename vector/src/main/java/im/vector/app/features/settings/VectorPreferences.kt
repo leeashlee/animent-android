@@ -334,6 +334,7 @@ class VectorPreferences @Inject constructor(
 
         // theme
         keysToKeep.add(ThemeUtils.APPLICATION_THEME_KEY)
+        keysToKeep.add(ThemeUtils.APPLICATION_ACCENTS_KEY)
 
         // get all the existing keys
         val keys = defaultPrefs.all.keys
