@@ -9,18 +9,18 @@
     -->
 
     <!-- For all themes -->
+    <color name="palette_element_mustard">#EDCF7F</color>
+    <color name="palette_element_gold">#D9B072</color>
+    <color name="palette_white">#FFFFFF</color>
+    <color name="palette_vermilion">#FF5B55</color>
+
+    <!-- Celestial -->
     <color name="palette_azure">#368BD6</color>
     <color name="palette_aqua">#2DC2C5</color>
     <color name="palette_grape">#D57FD1</color>
     <color name="palette_verde">#8056F5</color>
     <color name="palette_polly">#E64F7A</color>
     <color name="palette_melon">#FF812D</color>
-
-    <color name="palette_element_mustard">#EDCF7F</color>
-    <color name="palette_element_gold">#D9B072</color>
-    <color name="palette_white">#FFFFFF</color>
-    <color name="palette_vermilion">#FF5B55</color>
-    <!-- (unused) -->
     <color name="palette_ems">#B4A8FF</color>
     <color name="palette_celestial">#90BAD5</color>
     <color name="palette_prune">#B88FBF</color>
@@ -43,5 +43,33 @@
     <color name="palette_gray_450">#7C7087</color>
     <color name="palette_black_800">#6A5977</color>
     <color name="palette_black_950">#4A3C55</color>
+
+    <!-- Baby Pink -->
+
+    <color name="palette_brown">#A07880</color>
+    <color name="palette_grayish_brown">#B098A0</color>
+    <color name="palette_rose_gold">#E8C8D0</color>
+    <color name="palette_warm_brown">#A87880</color>
+    <color name="palette_angelic_blush">#F0D8E0</color>
+    <color name="palette_baby_pink">#F8D8E0</color>
+    <color name="palette_baby_peach">#F8D0D8</color>
+
+    <!-- For Light Theme -->
+    <color name="palette_4">#E8E8E8</color>
+    <color name="palette_10">#E0D0D0</color>
+    <color name="palette_5">#D0B0B8</color>
+    <color name="palette_11_A">#A88890</color>
+    <color name="palette_13_A">#906870</color>
+    <color name="palette_12_A">#705058</color>
+
+    <!-- For Dark Theme -->
+    <color name="palette_14">#F0D8D8</color>
+    <color name="palette_6">#D8C0C0</color>
+    <color name="palette_1">#C0A0A8</color>
+    <color name="palette_11_B">#A88890</color>
+    <color name="palette_13_B">#906870</color>
+    <color name="palette_12_B">#705058</color>
+
+    <!-- Material Design (allegedly) -->
 
 </resources>

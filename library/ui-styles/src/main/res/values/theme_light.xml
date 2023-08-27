@@ -6,14 +6,14 @@
     <style name="Base.Theme.Vector.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Element attribute for palette -->
         <!-- content colors -->
-        <item name="vctr_content_primary">@color/element_content_primary_light</item>
-        <item name="vctr_content_secondary">@color/element_content_secondary_light</item>
-        <item name="vctr_content_tertiary">@color/element_content_tertiary_light</item>
-        <item name="vctr_content_quaternary">@color/element_content_quaternary_light</item>
-        <item name="vctr_content_quinary">@color/element_content_quinary_light</item>
+        <item name="vctr_content_primary">@color/c_element_content_primary_light</item>
+        <item name="vctr_content_secondary">@color/c_element_content_secondary_light</item>
+        <item name="vctr_content_tertiary">@color/c_element_content_tertiary_light</item>
+        <item name="vctr_content_quaternary">@color/c_element_content_quaternary_light</item>
+        <item name="vctr_content_quinary">@color/c_element_content_quinary_light</item>
 
         <!-- system colors -->
-        <item name="vctr_system">@color/element_system_light</item>
+        <item name="vctr_system">@color/c_element_system_light</item>
 
         <!-- other colors -->
         <item name="vctr_fab_label_bg">@color/vctr_fab_label_bg_light</item>
@@ -27,7 +27,7 @@
         <item name="vctr_reaction_background_on">@color/vctr_reaction_background_on_light</item>
         <item name="vctr_waiting_background_color">@color/vctr_waiting_background_color_light</item>
         <item name="vctr_chat_effect_snow_background">@color/vctr_chat_effect_snow_background_light</item>
-        <item name="vctr_toolbar_background">@color/element_background_light</item>
+        <item name="vctr_toolbar_background">@color/c_element_background_light</item>
         <item name="vctr_message_bubble_inbound">@color/vctr_message_bubble_inbound_light</item>
         <item name="vctr_message_bubble_outbound">@color/vctr_message_bubble_outbound_light</item>
         <item name="vctr_badge_color_border">@color/vctr_badge_color_border_light</item>
@@ -35,10 +35,10 @@
         <!-- room message colors -->
         <item name="vctr_notice_secondary">#61708B</item>
         <item name="vctr_unsent_message_text_color">?colorError</item>
-        <item name="vctr_message_text_color">@color/element_content_primary_light</item>
+        <item name="vctr_message_text_color">@color/c_element_content_primary_light</item>
         <item name="vctr_notice_text_color">#FF61708b</item>
         <item name="vctr_encrypting_message_text_color">@color/palette_element_mustard</item>
-        <item name="vctr_sending_message_text_color">@color/element_content_secondary_light</item>
+        <item name="vctr_sending_message_text_color">@color/c_element_content_secondary_light</item>
         <item name="vctr_markdown_block_background_color">#FFEEEEEE</item>
         <item name="vctr_spoiler_background_color">#FF000000</item>
 
@@ -64,9 +64,9 @@
         <item name="colorOnSecondary">@android:color/white</item>
         <item name="colorError">@color/element_alert_light</item>
         <item name="colorOnError">@color/palette_white</item>
-        <item name="colorSurface">@color/element_system_light</item>
+        <item name="colorSurface">@color/c_element_system_light</item>
         <item name="colorOnSurface">?vctr_content_primary</item>
-        <item name="android:colorBackground">@color/element_background_light</item>
+        <item name="android:colorBackground">@color/c_element_background_light</item>
         <item name="colorOnBackground">?vctr_content_primary</item>
 
         <!--Material type attributes-->
@@ -100,13 +100,13 @@
         <item name="bottomSheetDialogTheme">@style/Theme.Vector.BottomSheetDialog.Light</item>
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.Vector.MaterialAlertDialog</item>
 
-        <item name="android:textColorLink">@color/element_link_light</item>
+        <item name="android:textColorLink">@color/c_element_link_light</item>
 
         <!-- Menu text color -->
         <item name="android:actionMenuTextColor">?colorSecondary</item>
 
         <!-- Default color for text View -->
-        <item name="android:textColorTertiary">@color/element_content_primary_light</item>
+        <item name="android:textColorTertiary">@color/c_element_content_primary_light</item>
 
         <!-- ANDROID SUPPORT ATTRIBUTES -->
         <!-- disable the overscroll because setOverscrollHeader/Footer don't always work -->

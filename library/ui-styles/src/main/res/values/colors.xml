@@ -31,10 +31,10 @@
     <color name="black_54">#8A000000</color>
 
     <!-- For Android status bar and navigation bar -->
-    <color name="android_status_bar_background_light">@color/element_system_light</color>
-    <color name="android_navigation_bar_background_light">@color/element_system_light</color>
+    <color name="android_status_bar_background_light">@color/c_element_system_light</color>
+    <color name="android_navigation_bar_background_light">@color/c_element_system_light</color>
     <color name="android_status_bar_background_dark">@color/element_background_dark</color>
-    <color name="android_navigation_bar_background_dark">@color/element_system_dark</color>
+    <color name="android_navigation_bar_background_dark">@color/c_element_system_dark</color>
 
     <!-- Used for toolbar background -->
     <attr name="vctr_toolbar_background" format="color" />
