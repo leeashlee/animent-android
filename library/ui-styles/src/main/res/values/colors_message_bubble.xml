@@ -3,9 +3,13 @@
 
     <!-- Timeline bubble background colors -->
     <attr name="vctr_message_bubble_inbound" format="color" />
-    <color name="vctr_message_bubble_inbound_light">#F1DCA5</color>
-    <color name="vctr_message_bubble_inbound_dark">#E7CF80</color>
+    <color name="c_vctr_message_bubble_inbound_light">#F1DCA5</color>
+    <color name="c_vctr_message_bubble_inbound_dark">#E7CF80</color>
+    <color name="p_vctr_message_bubble_inbound_light">#D0B0B8</color>
+    <color name="p_vctr_message_bubble_inbound_dark">#A07880</color>
     <attr name="vctr_message_bubble_outbound" format="color" />
-    <color name="vctr_message_bubble_outbound_light">#DBAFE3</color>
-    <color name="vctr_message_bubble_outbound_dark">#86658C</color>
+    <color name="c_vctr_message_bubble_outbound_light">#DBAFE3</color>
+    <color name="c_vctr_message_bubble_outbound_dark">#86658C</color>
+    <color name="p_vctr_message_bubble_outbound_light">#F0D8E0</color>
+    <color name="p_vctr_message_bubble_outbound_dark">#D5ABB6</color>
 </resources>

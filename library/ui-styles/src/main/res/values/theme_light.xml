@@ -28,8 +28,8 @@
         <item name="vctr_waiting_background_color">@color/vctr_waiting_background_color_light</item>
         <item name="vctr_chat_effect_snow_background">@color/vctr_chat_effect_snow_background_light</item>
         <item name="vctr_toolbar_background">@color/c_element_background_light</item>
-        <item name="vctr_message_bubble_inbound">@color/vctr_message_bubble_inbound_light</item>
-        <item name="vctr_message_bubble_outbound">@color/vctr_message_bubble_outbound_light</item>
+        <item name="vctr_message_bubble_inbound">@color/c_vctr_message_bubble_inbound_light</item>
+        <item name="vctr_message_bubble_outbound">@color/c_vctr_message_bubble_outbound_light</item>
         <item name="vctr_badge_color_border">@color/vctr_badge_color_border_light</item>
 
         <!-- room message colors -->
