@@ -3,7 +3,7 @@
 
     <!-- LIGHT THEME COLORS -->
 
-    <style name="Base.Theme.Vector.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Base.Theme.Celestial.Vector.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Element attribute for palette -->
         <!-- content colors -->
         <item name="vctr_content_primary">@color/c_element_content_primary_light</item>
@@ -161,7 +161,7 @@
         <item name="vctr_rich_text_editor_menu_button_background">@color/vctr_rich_text_editor_menu_button_background_light</item>
     </style>
 
-    <style name="Theme.Vector.Light" parent="Base.Theme.Vector.Light" />
+    <style name="Theme.Celestial.Vector.Light" parent="Base.Theme.Celestial.Vector.Light" />
 
 </resources>
 
