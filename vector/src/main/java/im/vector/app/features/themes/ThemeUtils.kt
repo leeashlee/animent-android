@@ -249,7 +249,11 @@ object ThemeUtils {
     @StyleRes
     private fun themeToRes(context: Context, theme: String): Int =
             when (theme) {
-                SYSTEM_THEME_VALUE -> if (isSystemDarkTheme(context.resources)) R.style.Theme_Celestial_Vector_Dark else R.style.Theme_Celestial_Vector_Light
+                SYSTEM_THEME_VALUE ->
+                    if (isSystemDarkTheme(context.resources))
+                        R.style.Theme_Celestial_Vector_Dark
+                    else
+                        R.style.Theme_Celestial_Vector_Light
                 THEME_DARK_VALUE -> R.style.Theme_Celestial_Vector_Dark
                 THEME_BLACK_VALUE -> R.style.Theme_Vector_Black
                 else -> R.style.Theme_Celestial_Vector_Light
