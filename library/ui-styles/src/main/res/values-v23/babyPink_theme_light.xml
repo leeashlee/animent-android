@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Vector.Light.v23" parent="Base.Theme.Celestial.Vector.Light">
+    <style name="Theme.babyPink.Vector.Light.v23" parent="Base.Theme.babyPink.Vector.Light">
         <item name="android:statusBarColor">@color/c_android_status_bar_background_light</item>
         <item name="android:windowLightStatusBar">true</item>
     </style>
 
-    <style name="Theme.Celestial.Vector.Light" parent="Theme.Vector.Light.v23"/>
+    <style name="Theme.babyPink.Vector.Light" parent="Theme.babyPink.Vector.Light.v23"/>
 
 </resources>
