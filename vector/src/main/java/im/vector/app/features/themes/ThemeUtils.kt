@@ -62,8 +62,8 @@ object ThemeUtils {
     // init the theme
     fun init(context: Context) {
         val theme = getApplicationTheme(context)
-        //val accent = getApplicationAccent(context)
-        setApplicationTheme(context, theme)
+        val accent = getApplicationAccent(context)
+        setApplicationTheme(context, theme, accent)
     }
 
     /**
@@ -136,7 +136,7 @@ object ThemeUtils {
      * @param context the Android context
      * @param aTheme the new theme
      */
-    fun setApplicationTheme(context: Context, aTheme: String) {
+    fun setApplicationTheme(context: Context, aTheme: String, accent: String) {
         /**
         var theme = aTheme
         if (aTheme == SYSTEM_THEME_VALUE){
