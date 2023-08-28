@@ -625,6 +625,7 @@ class HomeActivity :
 
     override fun handleMenuItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
+            /**
             R.id.menu_home_suggestion -> {
                 bugReporter.openBugReportScreen(this, ReportType.SUGGESTION)
                 true
@@ -633,6 +634,7 @@ class HomeActivity :
                 bugReporter.openBugReportScreen(this, ReportType.BUG_REPORT)
                 true
             }
+            */
             R.id.menu_home_init_sync_legacy -> {
                 // Configure the SDK
                 initialSyncStrategy = InitialSyncStrategy.Legacy

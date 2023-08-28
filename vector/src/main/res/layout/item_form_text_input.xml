@@ -6,6 +6,7 @@
     android:layout_height="wrap_content"
     android:background="?android:colorBackground"
     android:minHeight="@dimen/item_form_min_height"
+    android:paddingTop="10dp"
     tools:viewBindingIgnore="true">
 
     <com.google.android.material.textfield.TextInputLayout
