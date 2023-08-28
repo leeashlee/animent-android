@@ -161,7 +161,7 @@
         <item name="vctr_rich_text_editor_menu_button_background">@color/vctr_rich_text_editor_menu_button_background_light</item>
     </style>
 
-    <style name="Theme.Celestial.Vector.Light" parent="Base.Theme.Celestial.Vector.Light" />
+    <style name="Theme.Vector.Light" parent="Base.Theme.Celestial.Vector.Light" />
 
 </resources>
 
