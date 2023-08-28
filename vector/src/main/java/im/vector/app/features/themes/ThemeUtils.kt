@@ -62,6 +62,7 @@ object ThemeUtils {
     // init the theme
     fun init(context: Context) {
         val theme = getApplicationTheme(context)
+        //val accent = getApplicationAccent(context)
         setApplicationTheme(context, theme)
     }
 
@@ -136,6 +137,44 @@ object ThemeUtils {
      * @param aTheme the new theme
      */
     fun setApplicationTheme(context: Context, aTheme: String) {
+        /**
+        var theme = aTheme
+        if (aTheme == SYSTEM_THEME_VALUE){
+            if (isSystemDarkTheme(context.resources)){
+                if (accent == ACCENTS_MATERIALDESIGN_VALUE)
+                    theme = ACCENTS_MATERIALDESIGN_VALUE + THEME_DARK_VALUE
+                if (accent == ACCENTS_CELESTIAL_VALUE)
+                    theme = ACCENTS_CELESTIAL_VALUE + THEME_DARK_VALUE
+                if (accent == ACCENTS_BABYPINK_VALUE)
+                    theme = ACCENTS_BABYPINK_VALUE + THEME_DARK_VALUE
+            } else {
+                if (accent == ACCENTS_MATERIALDESIGN_VALUE)
+                    theme = ACCENTS_MATERIALDESIGN_VALUE + THEME_LIGHT_VALUE
+                if (accent == ACCENTS_CELESTIAL_VALUE)
+                    theme = ACCENTS_CELESTIAL_VALUE + THEME_LIGHT_VALUE
+                if (accent == ACCENTS_BABYPINK_VALUE)
+                    theme = ACCENTS_BABYPINK_VALUE + THEME_LIGHT_VALUE
+            }
+        }
+
+        if (aTheme == THEME_LIGHT_VALUE){
+            if (accent == ACCENTS_MATERIALDESIGN_VALUE)
+                theme = ACCENTS_MATERIALDESIGN_VALUE + THEME_LIGHT_VALUE
+            if (accent == ACCENTS_CELESTIAL_VALUE)
+                theme = ACCENTS_CELESTIAL_VALUE + THEME_LIGHT_VALUE
+            if (accent == ACCENTS_BABYPINK_VALUE)
+                theme = ACCENTS_BABYPINK_VALUE + THEME_LIGHT_VALUE
+        }
+
+        if (aTheme == THEME_DARK_VALUE){
+            if (accent == ACCENTS_MATERIALDESIGN_VALUE)
+                theme = ACCENTS_MATERIALDESIGN_VALUE + THEME_DARK_VALUE
+            if (accent == ACCENTS_CELESTIAL_VALUE)
+                theme = ACCENTS_CELESTIAL_VALUE + THEME_DARK_VALUE
+            if (accent == ACCENTS_BABYPINK_VALUE)
+                theme = ACCENTS_BABYPINK_VALUE + THEME_DARK_VALUE
+        }
+        */
         currentTheme.set(aTheme)
         context.setTheme(themeToRes(context, aTheme))
 
