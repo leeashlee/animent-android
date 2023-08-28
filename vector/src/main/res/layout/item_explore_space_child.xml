@@ -7,6 +7,7 @@
     android:layout_height="wrap_content"
     android:background="?android:colorBackground"
     android:foreground="?attr/selectableItemBackground"
+    android:padding="10dp"
     tools:viewBindingIgnore="true">
 
     <FrameLayout
@@ -64,9 +65,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="8dp"
-        android:text="@string/space_suggested"
         android:ellipsize="end"
         android:maxLines="1"
+        android:text="@string/space_suggested"
         android:textColor="?vctr_content_secondary"
         app:layout_constraintStart_toStartOf="@id/roomNameView"
         app:layout_constraintTop_toBottomOf="@id/roomNameView" />
@@ -113,8 +114,8 @@
         android:id="@+id/roomBottomBarrier"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:barrierMargin="8dp"
         app:barrierDirection="bottom"
+        app:barrierMargin="8dp"
         app:constraint_referenced_ids="roomAvatarBottomSpace" />
 
     <TextView
