@@ -22,15 +22,6 @@
             android:title="@string/settings_theme"
             app:iconSpaceReserved="false" />
 
-        <im.vector.app.core.preference.VectorListPreference
-            android:defaultValue="materialDesign"
-            android:entries="@array/accents_entries"
-            android:entryValues="@array/accents_values"
-            android:key="APPLICATION_ACCENTS_KEY"
-            android:summary="%s"
-            android:title="@string/settings_accent"
-            app:iconSpaceReserved="false" />
-
         <im.vector.app.core.preference.VectorPreference
             android:dialogTitle="@string/font_size"
             android:key="SETTINGS_INTERFACE_TEXT_SIZE_KEY"
