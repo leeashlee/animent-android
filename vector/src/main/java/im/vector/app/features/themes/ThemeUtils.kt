@@ -83,30 +83,6 @@ object ThemeUtils {
     }
 
     /**
-     * @return true if accent is material design
-     */
-    fun isMaterialDesign(context: Context): Boolean {
-        val accent = getApplicationAccent(context)
-        return accent == ACCENTS_MATERIALDESIGN_VALUE
-    }
-
-    /**
-     * @return true if accent is Celestial
-     */
-    fun isCelestial(context: Context): Boolean {
-        val accent = getApplicationAccent(context)
-        return accent == ACCENTS_CELESTIAL_VALUE
-    }
-
-    /**
-     * @return true if accent is Baby Pink
-     */
-    fun isBabyPink(context: Context): Boolean {
-        val accent = getApplicationAccent(context)
-        return accent == ACCENTS_BABYPINK_VALUE
-    }
-
-    /**
      * Provides the selected application theme.
      *
      * @param context the context
