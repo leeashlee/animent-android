@@ -4,6 +4,9 @@
     <!-- Alias to the palette colors
       Source: https://www.figma.com/file/X4XTH9iS2KGJ2wFKDqkyed/Compound?node-id=1521%3A23026 -->
 
+    <!-- c == celestial theme
+         p == babyPink theme -->
+
     <color name="element_accent_light">@color/palette_element_mustard</color>
     <color name="element_accent_dark">@color/palette_element_mustard</color>
 
