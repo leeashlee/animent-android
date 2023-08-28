@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Celestial.Vector.Light.v27" parent="Theme.Celestial.Vector.Light.v23">
+    <style name="Theme.Vector.Light.v27" parent="Theme.Vector.Light.v23">
         <item name="android:navigationBarColor">@color/c_android_navigation_bar_background_light</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
 
-    <style name="Theme.Celestial.Vector.Light" parent="Theme.Celestial.Vector.Light.v27" />
+    <style name="Theme.Vector.Light" parent="Theme.Vector.Light.v27" />
 
 </resources>
