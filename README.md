@@ -6,3 +6,7 @@
 - Custom emojis
 - An improved UX and UI
 - Cuteness overload
+
+## Features in the future
+- Custom Sticker packs
+- Several themes
