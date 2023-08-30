@@ -68,7 +68,7 @@ enum class Command(
     JOIN_SPACE("/joinSpace", null, "spaceId", R.string.command_description_join_space, true, false),
     LEAVE_ROOM("/leave", null, "<roomId?>", R.string.command_description_leave_room, true, false),
     UPGRADE_ROOM("/upgraderoom", null, "newVersion", R.string.command_description_upgrade_room, true, false),
-    TABLE_FLIP("/tableflip", null, "<message>", R.string.command_description_table_flip, false, true);
+    TABLE_FLIP("/tableflip", null, "<message>", R.string.command_description_table_flip, false, true), ADD_STICKERS ("/addstickers", null, "<message>", R.string.command_description_emote, false, true);
 
     val allAliases = arrayOf(command, *aliases.orEmpty())
 

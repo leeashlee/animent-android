@@ -134,4 +134,8 @@ interface ProfileService {
             )
         }
     }
+
+    fun addStickerPack(url: CharSequence) {
+        
+    }
 }
