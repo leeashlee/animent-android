@@ -547,6 +547,11 @@ class MessageComposerViewModel @AssistedInject constructor(
                             }
                             Unit
                         }
+                        is ParsedCommand.AddSticker -> {
+                            session.profileService().addStickerPack(
+                                url = parsedCommand.message
+                            )
+                        }
                         is ParsedCommand.UpgradeRoom -> {
                             _viewEvents.post(
                                     MessageComposerViewEvents.ShowRoomUpgradeDialog(

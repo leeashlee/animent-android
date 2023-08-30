@@ -407,6 +407,13 @@ class CommandParser @Inject constructor(
                         ParsedCommand.ErrorSyntax(Command.UPGRADE_ROOM)
                     }
                 }
+                Command.ADD_STICKERS.matches(slashCommand) -> {
+                    if (message.isNotEmpty()) {
+                        ParsedCommand.AddSticker(message)
+                    } else {
+                        ParsedCommand.ErrorSyntax(Command.ADD_STICKERS)
+                    }
+                }
                 Command.CRASH_APP.matches(slashCommand) && vectorPreferences.developerMode() -> {
                     throw RuntimeException("Application crashed from user demand")
                 }

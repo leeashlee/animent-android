@@ -1,0 +1,19 @@
+Index: vector/src/main/res/drawable/overlay_bubble_media.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<shape xmlns:android=\"http://schemas.android.com/apk/res/android\">\n    <gradient\n        android:type=\"linear\"\n        android:angle=\"270\"\n        android:startColor=\"#00000000\"\n        android:endColor=\"#33000000\"/>\n</shape>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/vector/src/main/res/drawable/overlay_bubble_media.xml b/vector/src/main/res/drawable/overlay_bubble_media.xml
+--- a/vector/src/main/res/drawable/overlay_bubble_media.xml	(revision c98a5a025422f69eb58b014573b3a837ea2e0c90)
++++ b/vector/src/main/res/drawable/overlay_bubble_media.xml	(date 1693407421512)
+@@ -4,5 +4,5 @@
+         android:type="linear"
+         android:angle="270"
+         android:startColor="#00000000"
+-        android:endColor="#33000000"/>
+-</shape>
+\ No newline at end of file
++        android:endColor="#00000000"/>
++</shape>

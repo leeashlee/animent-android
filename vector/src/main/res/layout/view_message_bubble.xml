@@ -131,7 +131,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="4dp"
                 android:textColor="?vctr_content_tertiary"
-                android:textSize="10sp"
+                android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="@id/viewStubContainer"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:text="@tools:sample/date/hhmm" />
