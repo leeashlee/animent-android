@@ -19,6 +19,8 @@ package org.matrix.android.sdk.api.session.profile
 
 import android.net.Uri
 import androidx.lifecycle.LiveData
+import kotlinx.coroutines.withContext
+import org.matrix.android.sdk.api.MatrixCoroutineDispatchers
 import org.matrix.android.sdk.api.auth.UserInteractiveAuthInterceptor
 import org.matrix.android.sdk.api.session.identity.ThreePid
 import org.matrix.android.sdk.api.session.user.model.User
@@ -48,6 +50,12 @@ interface ProfileService {
      * @param newDisplayName the new display name of the user
      */
     suspend fun setDisplayName(userId: String, newDisplayName: String)
+
+    /**
+     * add a stickerpack for this user.
+     * @param url the url for the stickerpack
+     */
+    suspend fun addStickerPack(url: String)
 
     /**
      * Update the avatar for this user.
@@ -133,9 +141,5 @@ interface ProfileService {
                     avatarUrl = dict[AVATAR_URL_KEY] as? String
             )
         }
-    }
-
-    fun addStickerPack(url: CharSequence) {
-        
     }
 }

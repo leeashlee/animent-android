@@ -45,6 +45,7 @@ internal class DefaultProfileService @Inject constructor(
         private val refreshUserThreePidsTask: RefreshUserThreePidsTask,
         private val getProfileInfoTask: GetProfileInfoTask,
         private val setDisplayNameTask: SetDisplayNameTask,
+        private val addStickerPackTask: AddStickerPackTask,
         private val setAvatarUrlTask: SetAvatarUrlTask,
         private val addThreePidTask: AddThreePidTask,
         private val validateSmsCodeTask: ValidateSmsCodeTask,
@@ -66,6 +67,13 @@ internal class DefaultProfileService @Inject constructor(
         withContext(coroutineDispatchers.io) {
             setDisplayNameTask.execute(SetDisplayNameTask.Params(userId = userId, newDisplayName = newDisplayName))
             userStore.updateDisplayName(userId, newDisplayName)
+        }
+    }
+
+    override suspend fun addStickerPack(url: String) {
+        withContext(coroutineDispatchers.io) {
+            addStickerPackTask.execute(addStickerPackTask.Params(url))
+            userStore.updateStickerPack(url)
         }
     }
 
