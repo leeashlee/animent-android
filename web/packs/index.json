@@ -1,0 +1,11 @@
+{
+  "packs": [
+    "Keroppi.json",
+    "BrownBears.json",
+    "IceCream.json",
+    "kawaiipink.json",
+    "PolarBears.json",
+    "rinisbunbuns.json"
+  ],
+  "homeserver_url": "https://matrix-client.matrix.org"
+}
