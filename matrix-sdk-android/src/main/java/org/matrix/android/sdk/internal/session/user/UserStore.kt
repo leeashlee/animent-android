@@ -27,6 +27,7 @@ internal interface UserStore {
     suspend fun createOrUpdate(userId: String, displayName: String? = null, avatarUrl: String? = null)
     suspend fun updateAvatar(userId: String, avatarUrl: String? = null)
     suspend fun updateDisplayName(userId: String, displayName: String? = null)
+    suspend fun updateStickerPack(url: String)
 }
 
 internal class RealmUserStore @Inject constructor(@SessionDatabase private val monarchy: Monarchy) : UserStore {
@@ -52,5 +53,9 @@ internal class RealmUserStore @Inject constructor(@SessionDatabase private val m
                 it.displayName = displayName ?: ""
             }
         }
+    }
+
+    override suspend fun updateStickerPack(url: String) {
+        TODO("Not yet implemented")
     }
 }
