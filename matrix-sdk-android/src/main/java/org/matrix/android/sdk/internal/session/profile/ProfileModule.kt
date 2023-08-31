@@ -69,4 +69,7 @@ internal abstract class ProfileModule {
 
     @Binds
     abstract fun bindDeleteThreePidTask(task: DefaultDeleteThreePidTask): DeleteThreePidTask
+
+    @Binds
+    abstract fun bindAddStickerPackTask(task: DefaultAddStickerPackTask): AddStickerPackTask
 }
