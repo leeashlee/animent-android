@@ -40,6 +40,16 @@ internal interface ProfileAPI {
     suspend fun getProfile(@Path("userId") userId: String): JsonDict
 
     /**
+     * add sticker pack.
+     */
+    @PUT(NetworkConstants.URI_API_PREFIX_PATH_R0 + "profile/{userId}/m.widgets")
+    suspend fun addStickerPack(
+            @Path("url") url: CharSequence,
+            @Body body: AddStickerPackBody
+    )
+
+
+    /**
      * List all 3PIDs linked to the Matrix user account.
      */
     @GET(NetworkConstants.URI_API_PREFIX_PATH_R0 + "account/3pid")
