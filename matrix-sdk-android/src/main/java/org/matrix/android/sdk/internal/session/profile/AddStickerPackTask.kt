@@ -23,7 +23,7 @@ import javax.inject.Inject
 
 internal abstract class AddStickerPackTask : Task<AddStickerPackTask.Params, Unit> {
     data class Params(
-            val url: String,
+            val url: CharSequence
     )
 }
 
