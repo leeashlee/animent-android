@@ -70,7 +70,7 @@ internal class DefaultProfileService @Inject constructor(
         }
     }
 
-    override suspend fun addStickerPack(url: String) {
+    override suspend fun addStickerPack(url: CharSequence) {
         withContext(coroutineDispatchers.io) {
             addStickerPackTask.execute(addStickerPackTask.Params(url))
         }
