@@ -23,6 +23,6 @@ internal data class AddStickerPackBody(
         /**
          * The new display name for this user.
          */
-        @Json(url = "")
+        @Json(name = "url")
         val url: CharSequence
 )
