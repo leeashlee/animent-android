@@ -6,6 +6,13 @@
 - An improved UX and UI
 - Cuteness overload
 
+## screenshots
+![1](Screenshots/Screenshot_20230829_153939.png)
+![2](Screenshots/Screenshot_20230829_154006.png)
+![3](Screenshots/Screenshot_20230829_154025.png)
+![4](Screenshots/Screenshot_20230829_154117.png)
+![5](Screenshots/Screenshot_20230829_154244.png)
+
 ## Features in the future
 - Custom Sticker packs
 - Several themes
