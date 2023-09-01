@@ -7,8 +7,6 @@
 - Cuteness overload
 
 ## screenshots
-<img src="Screenshots/Screenshot_20230829_153939.png" alt="drawing" width="200"/>
-
 ![1](Screenshots/Screenshot_20230829_153939.png)
 ![2](Screenshots/Screenshot_20230829_154006.png)
 ![3](Screenshots/Screenshot_20230829_154025.png)
