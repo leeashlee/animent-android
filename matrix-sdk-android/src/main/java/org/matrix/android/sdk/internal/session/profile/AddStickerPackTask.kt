@@ -23,6 +23,7 @@ import javax.inject.Inject
 
 internal abstract class AddStickerPackTask : Task<AddStickerPackTask.Params, Unit> {
     data class Params(
+            val userId: String,
             val url: CharSequence
     )
 }
@@ -37,7 +38,7 @@ internal class DefaultAddStickerPackTask @Inject constructor(
                 url = params.url
         )
         return executeRequest(globalErrorReceiver) {
-            profileAPI.addStickerPack(params.url, body)
+            profileAPI.addStickerPack(params.userId, body)
         }
     }
 }

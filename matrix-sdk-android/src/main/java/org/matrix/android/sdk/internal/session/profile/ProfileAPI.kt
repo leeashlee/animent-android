@@ -44,7 +44,7 @@ internal interface ProfileAPI {
      */
     @PUT(NetworkConstants.URI_API_PREFIX_PATH_R0 + "profile/{userId}/m.widgets")
     suspend fun addStickerPack(
-            @Path("url") url: CharSequence,
+            @Path("userId") userId: String,
             @Body body: AddStickerPackBody
     )
 
