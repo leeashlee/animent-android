@@ -548,9 +548,7 @@ class MessageComposerViewModel @AssistedInject constructor(
                             Unit
                         }
                         is ParsedCommand.AddSticker -> {
-                            launchSlashCommandFlowSuspendable(room, url) {
-                                session.profileService().addStickerPack(session.myUserId, parsedCommand.message)
-                            }
+                            handleAddStickerSlashCommand(room, parsedCommand)
                         }
                         is ParsedCommand.UpgradeRoom -> {
                             _viewEvents.post(
@@ -786,6 +784,13 @@ class MessageComposerViewModel @AssistedInject constructor(
 
         launchSlashCommandFlowSuspendable(room, setUserPowerLevel) {
             room.stateService().sendStateEvent(EventType.STATE_ROOM_POWER_LEVELS, stateKey = "", newPowerLevelsContent)
+        }
+    }
+
+    private fun handleAddStickerSlashCommand(room: Room, addSticker: ParsedCommand.AddSticker) {
+        launchSlashCommandFlowSuspendable(room, addSticker) {
+            session.profileService().addStickerPack(session.myUserId, addSticker.message)
+
         }
     }
 
