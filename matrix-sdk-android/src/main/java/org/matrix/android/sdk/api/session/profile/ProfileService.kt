@@ -55,7 +55,7 @@ interface ProfileService {
      * add a stickerpack for this user.
      * @param url the url for the stickerpack
      */
-    suspend fun addStickerPack(url: CharSequence)
+    suspend fun addStickerPack(userId: String, url: CharSequence)
 
     /**
      * Update the avatar for this user.
