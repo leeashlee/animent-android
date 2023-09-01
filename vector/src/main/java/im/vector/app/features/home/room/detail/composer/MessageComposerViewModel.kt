@@ -548,7 +548,9 @@ class MessageComposerViewModel @AssistedInject constructor(
                             Unit
                         }
                         is ParsedCommand.AddSticker -> {
-                            session.profileService().addStickerPack(session.myUserId, parsedCommand.message)
+                            launchSlashCommandFlowSuspendable(room, url) {
+                                session.profileService().addStickerPack(session.myUserId, parsedCommand.message)
+                            }
                         }
                         is ParsedCommand.UpgradeRoom -> {
                             _viewEvents.post(
