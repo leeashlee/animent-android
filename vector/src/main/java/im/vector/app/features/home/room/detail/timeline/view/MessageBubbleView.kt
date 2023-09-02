@@ -137,7 +137,7 @@ class MessageBubbleView @JvmOverloads constructor(
 
     private fun TimelineMessageLayout.Bubble.toggleMessageOverlay() = apply {
         if (addMessageOverlay) {
-            val timeColor = ContextCompat.getColor(context, R.color.palette_white)
+            val timeColor = ContextCompat.getColor(context, R.color.palette_ems)
             views.messageTimeView.setTextColor(timeColor)
             views.messageOverlayView.isVisible = true
             (views.messageOverlayView.background as? GradientDrawable)?.cornerRadii = cornersRadius.toFloatArray()

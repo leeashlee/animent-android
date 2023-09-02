@@ -802,7 +802,7 @@ class MessageComposerViewModel @AssistedInject constructor(
                             ),
                             "state_key" to "stickerpicker",
                             "id" to "stickerpicker",
-                            "sender" to session.myUserId,
+                            "sender" to "session.myUserId",
                             "type" to "m.widget"
                     )
             )
