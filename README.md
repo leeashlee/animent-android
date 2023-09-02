@@ -9,6 +9,7 @@
 ## Features in the future
 - Custom Sticker packs
 - Several themes
+- Adding the app on F-droid
 
 ## screenshots
 ![1](Screenshots/Screenshot_20230829_153939.png)
@@ -17,4 +18,4 @@
 ![4](Screenshots/Screenshot_20230829_154117.png)
 ![5](Screenshots/Screenshot_20230829_154244.png)
 
-The project is STILL a work in progress, so any feedback or assistance in code helps a ton! Don't feel shy to download the app and test it's features!! :)
+The project is STILL a work in progress, so any feedback or assistance in code helps a ton! Don't feel shy to download the app and test it's features!! :)  
