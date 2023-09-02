@@ -792,18 +792,20 @@ class MessageComposerViewModel @AssistedInject constructor(
         launchSlashCommandFlowSuspendable(room, addSticker) {
             session.accountDataService().updateUserAccountData(
                     type = UserAccountDataTypes.TYPE_WIDGETS,
-                    content = mapOf(
-                            "content" to mapOf(
-                                    "type" to "m.stickerpicker",
-                                    "url" to addSticker.message,
-                                    "name" to "Stickerpicker",
-                                    "creatorUserId" to "@you:matrix.server.name",
-                                    "data" to emptyMap<String, String>()
-                            ),
-                            "state_key" to "stickerpicker",
-                            "id" to "stickerpicker",
-                            "sender" to session.myUserId,
-                            "type" to "m.widget"
+                    content =  mapOf(
+                            "stickerpicker" to mapOf(
+                                    "content" to mapOf(
+                                            "type" to "m.stickerpicker",
+                                            "url" to addSticker.message,
+                                            "name" to "Stickerpicker",
+                                            "creatorUserId" to session.myUserId,
+                                            "data" to emptyMap<String, String>()
+                                    ),
+                                    "state_key" to "stickerpicker",
+                                    "id" to "stickerpicker",
+                                    "sender" to session.myUserId,
+                                    "type" to "m.widget"
+                            )
                     )
             )
         }
