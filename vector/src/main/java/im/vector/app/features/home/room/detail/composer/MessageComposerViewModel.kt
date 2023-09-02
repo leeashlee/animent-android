@@ -60,6 +60,7 @@ import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import org.matrix.android.sdk.api.query.QueryStringValue
 import org.matrix.android.sdk.api.session.Session
+import org.matrix.android.sdk.api.session.accountdata.UserAccountDataTypes
 import org.matrix.android.sdk.api.session.content.ContentAttachmentData
 import org.matrix.android.sdk.api.session.events.model.EventType
 import org.matrix.android.sdk.api.session.events.model.getRootThreadEventId
@@ -789,10 +790,26 @@ class MessageComposerViewModel @AssistedInject constructor(
 
     private fun handleAddStickerSlashCommand(room: Room, addSticker: ParsedCommand.AddSticker) {
         launchSlashCommandFlowSuspendable(room, addSticker) {
-            session.profileService().addStickerPack(session.myUserId, addSticker.message)
-
+            session.accountDataService().updateUserAccountData(
+                    type = UserAccountDataTypes.TYPE_WIDGETS,
+                    content = mapOf(
+                            "content" to mapOf(
+                                    "type" to "m.stickerpicker",
+                                    "url" to addSticker.message,
+                                    "name" to "Stickerpicker",
+                                    "creatorUserId" to "@you:matrix.server.name",
+                                    "data" to emptyMap<String, String>()
+                            ),
+                            "state_key" to "stickerpicker",
+                            "id" to "stickerpicker",
+                            "sender" to session.myUserId,
+                            "type" to "m.widget"
+                    )
+            )
         }
     }
+
+
 
     private fun handleChangeDisplayNameSlashCommand(room: Room, changeDisplayName: ParsedCommand.ChangeDisplayName) {
         launchSlashCommandFlowSuspendable(room, changeDisplayName) {
