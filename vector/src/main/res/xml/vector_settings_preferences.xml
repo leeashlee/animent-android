@@ -98,6 +98,7 @@
             android:title="@string/settings_inline_url_preview" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
+            android:defaultValue="true"
             android:key="SETTINGS_ALWAYS_SHOW_TIMESTAMPS_KEY"
             android:title="@string/settings_always_show_timestamps" />
 
@@ -137,7 +138,7 @@
             android:title="@string/settings_chat_effects_title" />
 
         <im.vector.app.core.preference.VectorSwitchPreference
-            android:defaultValue="false"
+            android:defaultValue="true"
             android:key="SETTINGS_AUTOPLAY_ANIMATED_IMAGES"
             android:summary="@string/settings_autoplay_animated_images_summary"
             android:title="@string/settings_autoplay_animated_images_title" />
