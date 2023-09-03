@@ -116,12 +116,15 @@
                 android:id="@+id/messageOverlayView"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
+                android:layout_marginStart="-8dp"
                 android:background="@drawable/overlay_bubble_media"
                 android:visibility="gone"
-                app:layout_constraintBottom_toBottomOf="@id/viewStubContainer"
-                app:layout_constraintEnd_toEndOf="@id/viewStubContainer"
-                app:layout_constraintStart_toStartOf="@id/viewStubContainer"
-                app:layout_constraintTop_toTopOf="@id/viewStubContainer"
+                app:layout_constraintBottom_toBottomOf="@id/messageTimeView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@id/messageTimeView"
+                app:layout_constraintTop_toTopOf="@id/messageTimeView"
+                app:layout_constraintVertical_bias="1.0"
                 tools:visibility="visible" />
 
             <TextView
