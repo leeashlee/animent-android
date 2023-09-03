@@ -1432,6 +1432,7 @@
     <string name="command_problem_with_parameters">The command \"%s\" needs more parameters, or some parameters are incorrect.</string>
     <string name="command_not_supported_in_threads">The command \"%s\" is recognized but not supported in threads.</string>
     <string name="command_description_emote">Displays action</string>
+    <string name="command_description_addstickers">Add your sticker pack</string>
     <string name="command_description_ban_user">Bans user with given id</string>
     <string name="command_description_unban_user">Unbans user with given id</string>
     <string name="command_description_ignore_user">Ignores a user, hiding their messages from you</string>
