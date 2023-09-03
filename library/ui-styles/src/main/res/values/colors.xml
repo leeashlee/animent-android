@@ -107,9 +107,9 @@
     <color name="vctr_reaction_background_off_black">#22252B</color>
 
     <attr name="vctr_reaction_background_on" format="color" />
-    <color name="vctr_reaction_background_on_light">#2011BC8A</color>
-    <color name="vctr_reaction_background_on_dark">#4011BC8A</color>
-    <color name="vctr_reaction_background_on_black">#4011BC8A</color>
+    <color name="vctr_reaction_background_on_light">#6ADBAFE3</color>
+    <color name="vctr_reaction_background_on_dark">#86658C</color>
+    <color name="vctr_reaction_background_on_black">#86658C</color>
 
     <!-- (color from RiotWeb) -->
     <attr name="vctr_keys_backup_banner_accent_color" format="color" />
